@@ -1,0 +1,16 @@
+{
+  "version": "E2.1",
+  "selected": "paragraph_C1_raw",
+  "threshold": 0.8233164676475343,
+  "model_sha256": "4b6e328050f07d2f83952f9793a4bdb10d80cd7e4d4fb50508bd916360c6bf10",
+  "train_sha256": "007ec0913e42594e633a72b4d7d2321171cc99bc4de29813a1d43b447af3db2b",
+  "validation_sha256": "7be162daa42ed865aae017036616d3b86dd075fffeff05e25e6649fcb55e892b",
+  "source_sha256": "f53b3a07bfdebe2be42d0e5ea715e2a420d6ef33fbd5bb217e0123a2f9325e50",
+  "selection": "FPR <=5% overall, <=10% length cells n>=10; worst-category recall, recall, F1; earlier candidate wins ties.",
+  "OOF_folds": 3,
+  "train_families": 102,
+  "validation_families": 18,
+  "final_seen_by_training": false,
+  "calibration": "Group OOF sigmoid candidate; domain shift may invalidate calibration.",
+  "augmentation": "Old training positive spans quoted as negatives in same training family."
+}
