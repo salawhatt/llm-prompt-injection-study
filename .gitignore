@@ -7,3 +7,5 @@ __pycache__/
 *.log
 output/
 *.ipynb
+!notebooks/demo.ipynb
+.ipynb_checkpoints/

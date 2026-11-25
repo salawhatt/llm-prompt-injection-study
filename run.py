@@ -20,9 +20,13 @@ def integrity():
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("stage", choices=["report", "verify", "demo", "train"])
+    parser.add_argument("stage", choices=["report", "verify", "demo", "train", "generate"])
     args = parser.parse_args()
     integrity()
+    if args.stage == "generate":
+        from generate_data import generate
+        print(generate())
+        return
     if args.stage == "train":
         train = study.read(ROOT / "data/train.jsonl")
         val = study.read(ROOT / "data/validation.jsonl")

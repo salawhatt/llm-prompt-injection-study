@@ -1,0 +1,2 @@
+# Preserve exact bytes across platforms: manifest.json verifies SHA-256 hashes.
+* -text
