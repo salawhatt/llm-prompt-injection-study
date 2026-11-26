@@ -1,0 +1,35 @@
+{
+  "stopping_reason": null,
+  "financial": {
+    "by_model": {
+      "sonnet55": {
+        "attempts": 16,
+        "answered": 16,
+        "errors": 0,
+        "pending": 0,
+        "prompt_tokens": 25025,
+        "completion_tokens": 1050,
+        "reasoning_tokens": 0,
+        "estimated_cost_rub": 10.777315500000002
+      },
+      "astra": {
+        "attempts": 16,
+        "answered": 16,
+        "errors": 0,
+        "pending": 0,
+        "prompt_tokens": 16241,
+        "completion_tokens": 396,
+        "reasoning_tokens": 276,
+        "estimated_cost_rub": 33.38328164
+      }
+    },
+    "usage_upper_estimate_rub": 44.16059714,
+    "reserved_exposure_rub": 46.36862699699999,
+    "limit_rub": 1227.0,
+    "remaining_internal_capacity": 1180.631373003,
+    "billing_actual_rub": null,
+    "actual_account_balance": null,
+    "note": "Usage includes reasoning once. Cache read discounts ignored, maximum write tariff used. Not a provider invoice or current account balance."
+  },
+  "at_utc": "2026-11-25T22:36:12.755364+00:00"
+}

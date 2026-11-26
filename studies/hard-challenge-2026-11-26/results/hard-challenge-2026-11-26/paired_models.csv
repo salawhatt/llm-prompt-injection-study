@@ -1,0 +1,5 @@
+﻿scope,arm,repeat,planned_pairs,completed_pairs,missing_pairs,families,complete_scope,difference_astra_minus_sonnet,lo,hi,p,test,inference_available,p_holm
+core,A,1,32,32,0,16,True,-0.1875,-0.375,0.0,0.15625,exact_family_sign_flip,True,0.46875
+core,B,1,32,32,0,16,True,0.03125,0.0,0.09375,1.0,exact_family_sign_flip,True,1.0
+full,A,1,64,64,0,16,True,-0.25,-0.40625,-0.109375,0.00390625,exact_family_sign_flip,True,0.015625
+full,B,1,64,64,0,16,True,0.015625,0.0,0.046875,1.0,exact_family_sign_flip,True,1.0

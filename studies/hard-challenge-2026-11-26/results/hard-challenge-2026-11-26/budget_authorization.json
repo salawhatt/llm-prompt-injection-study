@@ -1,0 +1,9 @@
+{
+  "source": "User authorized separate hard challenge on 2026-11-26 and reported 1227 rubles available.",
+  "source_available_units": 1227.0,
+  "cumulative_cap_rub": 1227.0,
+  "budget_path": "D:\\KW\\results\\hard-challenge-2026-11-26\\budget.sqlite",
+  "uncertainty_multiplier": 1.05,
+  "independently_confirmed_billing": null,
+  "note": "No old reserves/grants added. Usage upper estimate and error reserves are not a provider invoice."
+}

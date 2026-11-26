@@ -1,0 +1,14 @@
+{
+  "files": {
+    "experiments\\hard-challenge-2026-11-26\\supplement.py": "6b815340dc0228623beb4498f034b831549b03b6e366e8aed774379f71e1d657",
+    "experiments\\hard-challenge-2026-11-26\\supplement_materials.py": "62e20487a8408b5d1abbdc97d898dfaecff02515406796183798d938cf4f307a",
+    "experiments\\hard-challenge-2026-11-26\\SUPPLEMENT_PROTOCOL.md": "b7a1631ced9fc9ff28b34b61468109b11f154cff14e48e404ae60fcb2eb3fcbd",
+    "results\\hard-challenge-2026-11-26\\lock.json": "560773d090df14c17c628c86e4368974dd0131eb609b176fa94617f6186c6d61",
+    "results\\hard-challenge-2026-11-26\\supplement\\cases.jsonl": "8b04a927858ab6d00d594e99f2ba629295b7d2f196119bdcd56ab6124f1a95c0",
+    "results\\hard-challenge-2026-11-26\\supplement\\plan.jsonl": "1cced25ccf3190b092c0f8c310ee2892bfaaa78e3d55d4deefde662a0ab90746",
+    "results\\hard-challenge-2026-11-26\\supplement\\filter_predictions.csv": "6920afd12da8246a7c616a6345ee9b9d08083ef6b70e1adf6b36f720b9bedee9"
+  },
+  "maximum_calls": 64,
+  "budget": "Same shared ledger and same 1227-ruble total; no additional authorization/cap.",
+  "analysis": "Separate supplemental cohort; do not pool as independent with main hard-challenge."
+}

@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-11-25T22:34:06.537854+00:00",
+  "models": {
+    "sonnet55": "anthropic/claude-sonnet-5.5",
+    "astra": "openai/gpt-6-astra"
+  },
+  "configurations": [
+    "A",
+    "B",
+    "D",
+    "E"
+  ],
+  "parameters": {
+    "temperature": 0,
+    "max_tokens": 1024
+  },
+  "files": {
+    "src\\client.py": "95f3a81a67f870e2468c679f8aa36c0103cdcc970eb61f3c65da16f992d9ae4f",
+    "src\\experiment_core.py": "4f6fc825c27d66bcea652b4aea8143c78bf69991e96e15e347c3b30c41712c14",
+    "src\\research_defense.py": "1a39f334f2a416c535e029bcca1c509d6a0b1a684cd96289bff6d50d6c7c96c4",
+    "models\\main-v4\\D.joblib": "080829e8981e1169ea53da238dbc6b2f725604ac2935b752844ad00c9d4a3c16",
+    "models\\main-v4\\E2.1.joblib": "4b6e328050f07d2f83952f9793a4bdb10d80cd7e4d4fb50508bd916360c6bf10",
+    "experiments\\hard-challenge-2026-11-26\\materials.py": "e362fc2eceb74d882abf7e54dc7b6095b89a69bbff88487a209ceabf85dfc920",
+    "experiments\\hard-challenge-2026-11-26\\run.py": "d24dffa2c2577273344dca7e65d1c58379feba1b7bfe0fb0d9df2a3ff3c2b815",
+    "experiments\\hard-challenge-2026-11-26\\analyze.py": "d7cfb1d69cc6546ea087f77062f3536244d19344a2156b37b23db6c7bf4ca268",
+    "experiments\\hard-challenge-2026-11-26\\PROTOCOL.md": "3bd6e959ba9a7564fc9fa232538650327b9a2ba8962a94d69bd138399d7f4c2c",
+    "results\\hard-challenge-2026-11-26\\cases.jsonl": "b154476f504210266adbf260375cdd59639c5bbf515cc5602aa7f02dd5a2e3c7",
+    "results\\hard-challenge-2026-11-26\\plan.jsonl": "403d677bbf7b5df632e9ec5545cb13cfa6cd01bfaafd9f3e22faa7d738a9135e",
+    "results\\hard-challenge-2026-11-26\\filter_predictions.csv": "853a9bf1fba3a334fbf42fe4c013cf7943435c6e4b4357f8bc055931bb134588",
+    "results\\hard-challenge-2026-11-26\\catalog.json": "23be90b257a252ea763ad481b53201e7043693d62ab7455578866b566dfd991c",
+    "results\\hard-challenge-2026-11-26\\budget_authorization.json": "aa7b3b9c1217732dbd361cdf2bb3bfc7d71bf150002fa9a00d32e71b5a69915f"
+  },
+  "scenario_count": 64,
+  "families": 16,
+  "documents": 128,
+  "maximum_api_calls": 768,
+  "schedule": "All first trials (variant/family order), then repetitions 2..5 of variant-0 attack cases. Pilot reuses planned first trials.",
+  "statistical_scope": "Targeted synthetic challenge after observing previous results, not a blind independent benchmark."
+}

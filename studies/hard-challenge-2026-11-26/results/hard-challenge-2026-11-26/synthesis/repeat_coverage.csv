@@ -1,0 +1,9 @@
+﻿model_name,arm,planned_documents,families,planned_outcomes,completed_outcomes,received_responses,blocked_outcomes,errors,missing,completed_documents,partial_documents,documents_with_extra_response,blocked_in_all_planned_repetitions,observed_at_least_one_success,observed_changed_outcome,truncated_responses,empty_responses,technical_response_count,usable_responses,documents_with_two_usable_responses,diagnostic_changed_among_usable_responses
+astra,A,64,16,320,262,262,0,0,58,16,48,64,0,11,11,3,3,3,259,64,11
+astra,B,64,16,320,261,261,0,0,59,16,48,64,0,2,2,0,0,0,261,64,2
+astra,D,64,16,320,310,45,265,0,10,56,8,11,53,1,1,0,0,0,45,11,1
+astra,E,64,16,320,312,32,280,0,8,58,6,8,56,0,0,0,0,0,32,8,0
+sonnet55,A,64,16,320,262,262,0,0,58,16,48,64,0,24,7,0,0,0,262,64,7
+sonnet55,B,64,16,320,261,261,0,0,59,16,48,64,0,0,0,0,0,0,261,64,0
+sonnet55,D,64,16,320,310,45,265,0,10,56,8,11,53,0,0,0,0,0,45,11,0
+sonnet55,E,64,16,320,312,32,280,0,8,58,6,8,56,0,0,0,0,0,32,8,0

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "observations": 32,
+  "estimated_rub": 44.160597139999986,
+  "per_model": {
+    "sonnet55": {
+      "n": 16,
+      "mean_cost": 0.6735822187500001
+    },
+    "astra": {
+      "n": 16,
+      "mean_cost": 2.0864551025
+    }
+  },
+  "stopping_reason": null
+}

@@ -1,0 +1,5198 @@
+{
+  "object": "list",
+  "data": [
+    {
+      "context_length": 262144,
+      "function_calling": true,
+      "id": "ai-sage/GigaChat3.5-432B-A28B",
+      "max_model_len": 262144,
+      "metadata": {
+        "company": "ai-sage",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 288.6,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/mit.md",
+        "name": "GigaChat3.5-432B-A28B",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 96.22,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/ai-sage/GigaChat3.5-432B-A28B/blob/main/README.md",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "ai-sage",
+      "structure_output": true
+    },
+    {
+      "context_length": 262144,
+      "function_calling": true,
+      "id": "GigaChat/GigaChat-3-Pro",
+      "max_model_len": 262144,
+      "metadata": {
+        "company": "GigaChat",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 176.39,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://developers.sber.ru/docs/ru/policies/gigachat-agreement/permissible-use-ai",
+        "name": "GigaChat-3-Pro",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 73.03,
+        "provider": "cloud.ru",
+        "readme": "https://giga.chat",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "GigaChat",
+      "structure_output": true
+    },
+    {
+      "context_length": 262144,
+      "function_calling": true,
+      "id": "ai-sage/GigaChat3-10B-A1.8B",
+      "max_model_len": 262144,
+      "metadata": {
+        "company": "ai-sage",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 12.2,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/mit.md",
+        "name": "GigaChat3-10B-A1.8B",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 12.2,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/ai-sage/GigaChat3-10B-A1.8B/blob/main/README.md",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "ai-sage",
+      "structure_output": true
+    },
+    {
+      "context_length": 40960,
+      "function_calling": true,
+      "id": "hivetrace/HiveTraceGuard-Pro",
+      "max_model_len": 40960,
+      "metadata": {
+        "company": "HiveTrace",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 0,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://www.apache.org/licenses/LICENSE-2.0",
+        "name": "HiveTraceGuard-Pro",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 42.7,
+        "provider": "cloud.ru",
+        "readme": "https://hivetrace.ru",
+        "task_type": [
+          "analysis"
+        ],
+        "type": "guard"
+      },
+      "object": "model",
+      "owned_by": "hivetrace",
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "zai-org/GLM-5.1",
+      "max_model_len": 1048576,
+      "metadata": {
+        "company": "zai-org",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 829.6,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/raw/main/markdown/mit.md",
+        "name": "GLM-5.1",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 198.86,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/zai-org/GLM-5.1-FP8/blob/main/README.md",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "zai-org",
+      "reasoning": true,
+      "structure_output": true
+    },
+    {
+      "context_length": 262144,
+      "function_calling": true,
+      "id": "moonshotai/Kimi-K2.6",
+      "max_model_len": 262144,
+      "metadata": {
+        "company": "moonshotai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 725.9,
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/moonshotai/Kimi-K2.6/blob/main/LICENSE",
+        "name": "Kimi-K2.6",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 175.68,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/moonshotai/Kimi-K2.6/blob/main/README.md",
+        "task_type": [
+          "code"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "MoonshotAI",
+      "reasoning": true,
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "deepseek-ai/DeepSeek-V4-Pro",
+      "max_model_len": 1048576,
+      "metadata": {
+        "company": "deepseek-ai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 732,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/raw/main/markdown/mit.md",
+        "name": "DeepSeek-V4-Pro",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 183,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/README.md",
+        "task_type": [
+          "analysis"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "deepseek-ai",
+      "reasoning": true,
+      "structure_output": true
+    },
+    {
+      "context_length": 524288,
+      "function_calling": true,
+      "id": "MiniMaxAI/MiniMax-M3",
+      "max_model_len": 524288,
+      "metadata": {
+        "company": "MiniMaxAI",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 1008.8546,
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/MiniMaxAI/MiniMax-M3/blob/main/LICENSE",
+        "name": "MiniMax-M3",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 240.218,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/MiniMaxAI/MiniMax-M3/blob/main/README.md",
+        "task_type": [
+          "code"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "MiniMaxAI",
+      "reasoning": true,
+      "reasoning_optional": true,
+      "structure_output": true
+    },
+    {
+      "context_length": 131072,
+      "function_calling": true,
+      "id": "openai/gpt-oss-120b",
+      "max_model_len": 131072,
+      "metadata": {
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/messages",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/messages"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 61,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://choosealicense.com/licenses/apache-2.0",
+        "name": "gpt-oss-120b",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 15.86,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/openai/gpt-oss-120b/blob/main/README.md",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "reasoning": true,
+      "reasoning_optional": false,
+      "structure_output": true
+    },
+    {
+      "capabilities": [
+        "tool_choice",
+        "tool_use",
+        "tools",
+        "structured_outputs"
+      ],
+      "context_length": 262144,
+      "function_calling": true,
+      "id": "Qwen/Qwen3.5-397B-A17B",
+      "max_model_len": 262144,
+      "metadata": {
+        "company": "Qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 1085.8,
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "is_billable": true,
+        "license": "https://choosealicense.com/licenses/apache-2.0",
+        "name": "Qwen3.5-397B-A17B",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 915,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B/blob/main/README.md",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "Qwen",
+      "reasoning": true,
+      "reasoning_optional": false,
+      "structure_output": true
+    },
+    {
+      "capabilities": [
+        "tool_choice",
+        "tool_use",
+        "tools",
+        "structured_outputs"
+      ],
+      "context_length": 262144,
+      "function_calling": true,
+      "id": "Qwen/Qwen3.6-35B-A3B",
+      "max_model_len": 262144,
+      "metadata": {
+        "company": "Qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 329.4,
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "is_billable": true,
+        "license": "https://choosealicense.com/licenses/apache-2.0",
+        "name": "Qwen3.6-35B-A3B",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 219.6,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B/blob/main/README.md",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "Qwen",
+      "reasoning": true,
+      "reasoning_optional": false,
+      "structure_output": true
+    },
+    {
+      "capabilities": [
+        "tool_choice",
+        "tool_use",
+        "tools",
+        "structured_outputs"
+      ],
+      "context_length": 262144,
+      "function_calling": true,
+      "id": "Qwen/Qwen3-Coder-Next",
+      "max_model_len": 262144,
+      "metadata": {
+        "company": "Qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 244,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://choosealicense.com/licenses/apache-2.0",
+        "name": "Qwen3-Coder-Next",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 122,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/Qwen/Qwen3-Coder-Next/blob/main/README.md",
+        "task_type": [
+          "code"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "Qwen",
+      "structure_output": true
+    },
+    {
+      "context_length": 8192,
+      "embedding_dimension": 1024,
+      "id": "ai-sage/Giga-Embeddings-instruct-3B",
+      "max_model_len": 8192,
+      "metadata": {
+        "company": "ai-sage",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/embeddings",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/embeddings"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 0,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/mit.md",
+        "name": "Giga-Embeddings-instruct-3B",
+        "oss": true,
+        "output_modalities": [
+          "embedding"
+        ],
+        "prompt_tokens_cost": 32.22,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/ai-sage/Giga-Embeddings-instruct-3B-0826/blob/main/README.md",
+        "task_type": [
+          "documents"
+        ],
+        "type": "embedder"
+      },
+      "object": "model",
+      "owned_by": "ai-sage"
+    },
+    {
+      "context_length": 8192,
+      "embedding_dimension": 1024,
+      "id": "ai-sage/Giga-Embeddings-instruct-480M",
+      "max_model_len": 8192,
+      "metadata": {
+        "company": "ai-sage",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/embeddings",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/embeddings"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 0,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/mit.md",
+        "name": "Giga-Embeddings-instruct-480M",
+        "oss": true,
+        "output_modalities": [
+          "embedding"
+        ],
+        "prompt_tokens_cost": 3.32,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/ai-sage/Giga-Embeddings-instruct-480M-0826/blob/main/README.md",
+        "task_type": [
+          "documents"
+        ],
+        "type": "embedder"
+      },
+      "object": "model",
+      "owned_by": "ai-sage"
+    },
+    {
+      "context_length": 32768,
+      "embedding_dimension": 1024,
+      "id": "Qwen/Qwen3-Embedding-0.6B",
+      "max_model_len": 32768,
+      "metadata": {
+        "company": "Qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/embeddings",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/embeddings"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 0,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
+        "name": "Qwen3-Embedding-0.6B",
+        "oss": true,
+        "output_modalities": [
+          "embedding"
+        ],
+        "prompt_tokens_cost": 0.854,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/blob/main/README.md",
+        "task_type": [
+          "documents"
+        ],
+        "type": "embedder"
+      },
+      "object": "model",
+      "owned_by": "Qwen"
+    },
+    {
+      "context_length": 32768,
+      "embedding_dimension": 2048,
+      "id": "Qwen/Qwen3-VL-Embedding-2B",
+      "max_model_len": 32768,
+      "metadata": {
+        "company": "Qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/embeddings",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/embeddings"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 0,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
+        "name": "Qwen/Qwen3-VL-Embedding-2B",
+        "oss": true,
+        "output_modalities": [
+          "embedding"
+        ],
+        "prompt_tokens_cost": 73.2,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/Qwen/Qwen3-VL-Embedding-2B/blob/main/README.md",
+        "task_type": [
+          "documents"
+        ],
+        "type": "embedder"
+      },
+      "object": "model",
+      "owned_by": "Qwen"
+    },
+    {
+      "context_length": 32768,
+      "embedding_dimension": 4096,
+      "id": "Qwen/Qwen3-VL-Embedding-8B",
+      "max_model_len": 32768,
+      "metadata": {
+        "company": "Qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/embeddings",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/embeddings"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 0,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
+        "name": "Qwen/Qwen3-VL-Embedding-8B",
+        "oss": true,
+        "output_modalities": [
+          "embedding"
+        ],
+        "prompt_tokens_cost": 85.4,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/Qwen/Qwen3-VL-Embedding-8B/blob/main/README.md",
+        "task_type": [
+          "documents"
+        ],
+        "type": "embedder"
+      },
+      "object": "model",
+      "owned_by": "Qwen"
+    },
+    {
+      "context_length": 8192,
+      "embedding_dimension": 1024,
+      "id": "BAAI/bge-m3",
+      "max_model_len": 8192,
+      "metadata": {
+        "company": "BAAI",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/embeddings",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/embeddings"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 0,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/mit.md",
+        "name": "bge-m3",
+        "oss": true,
+        "output_modalities": [
+          "embedding"
+        ],
+        "prompt_tokens_cost": 0.61,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/BAAI/bge-m3/blob/main/README.md",
+        "task_type": [
+          "documents"
+        ],
+        "type": "embedder"
+      },
+      "object": "model",
+      "owned_by": "BAAI"
+    },
+    {
+      "context_length": 40960,
+      "id": "Qwen/Qwen3-Reranker-0.6B",
+      "max_model_len": 40960,
+      "metadata": {
+        "company": "Qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/score",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/score"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/rerank",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/rerank"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/rerank",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/rerank"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v2/rerank",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v2/rerank"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 0,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
+        "name": "Qwen3-Reranker-0.6B",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 0.854,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/Qwen/Qwen3-Reranker-0.6B/blob/main/README.md",
+        "task_type": [
+          "documents"
+        ],
+        "type": "rerank"
+      },
+      "object": "model",
+      "owned_by": "Qwen"
+    },
+    {
+      "context_length": 32768,
+      "id": "Qwen/Qwen3-VL-Reranker-2B",
+      "max_model_len": 32768,
+      "metadata": {
+        "company": "Qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/score",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/score"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/rerank",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/rerank"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/rerank",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/rerank"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v2/rerank",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v2/rerank"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 0,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
+        "name": "Qwen3-VL-Reranker-2B",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 54.9,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/Qwen/Qwen3-VL-Reranker-2B/blob/main/README.md",
+        "task_type": [
+          "documents"
+        ],
+        "type": "rerank"
+      },
+      "object": "model",
+      "owned_by": "Qwen"
+    },
+    {
+      "context_length": 32768,
+      "id": "Qwen/Qwen3-VL-Reranker-8B",
+      "max_model_len": 32768,
+      "metadata": {
+        "company": "Qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/score",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/score"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/rerank",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/rerank"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/rerank",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/rerank"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v2/rerank",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v2/rerank"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 0,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
+        "name": "Qwen3-VL-Reranker-8B",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 85.4,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/Qwen/Qwen3-VL-Reranker-8B/blob/main/README.md",
+        "task_type": [
+          "documents"
+        ],
+        "type": "rerank"
+      },
+      "object": "model",
+      "owned_by": "Qwen"
+    },
+    {
+      "context_length": 8192,
+      "id": "BAAI/bge-reranker-v2-m3",
+      "max_model_len": 8192,
+      "metadata": {
+        "company": "BAAI",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/score",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/score"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/rerank",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/rerank"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/rerank",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/rerank"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v2/rerank",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v2/rerank"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 0,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/mit.md",
+        "name": "bge-reranker-v2-m3",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 0.244,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/BAAI/bge-reranker-v2-m3/blob/main/README.md",
+        "task_type": [
+          "documents"
+        ],
+        "type": "rerank"
+      },
+      "object": "model",
+      "owned_by": "BAAI"
+    },
+    {
+      "context_length": 8192,
+      "id": "deepseek-ai/DeepSeek-OCR-2",
+      "max_model_len": 8192,
+      "metadata": {
+        "company": "deepseek-ai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/completions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/tokenize",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/tokenize"
+          }
+        ],
+        "generated_tokens_cost": 61,
+        "input_modalities": [
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
+        "name": "DeepSeek-OCR-2",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 54.9,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/deepseek-ai/DeepSeek-OCR-2/blob/main/README.md",
+        "task_type": [
+          "documents"
+        ],
+        "type": "image+text-to-text"
+      },
+      "object": "model",
+      "owned_by": "deepseek-ai"
+    },
+    {
+      "context_length": 448,
+      "id": "openai/whisper-large-v3",
+      "max_model_len": 448,
+      "metadata": {
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/audio/transcriptions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/audio/transcriptions"
+          }
+        ],
+        "generated_tokens_cost": 0.0061,
+        "input_modalities": [
+          "audio"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
+        "name": "whisper-large-v3",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 0,
+        "provider": "cloud.ru",
+        "readme": "https://huggingface.co/openai/whisper-large-v3",
+        "task_type": [
+          "documents"
+        ],
+        "type": "audio-to-text"
+      },
+      "object": "model",
+      "owned_by": "OpenAI"
+    },
+    {
+      "id": "GigaChat/GigaASR",
+      "metadata": {
+        "company": "GigaChat",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/audio/transcriptions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/audio/transcriptions"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "GET",
+            "path": "/v1/realtime",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/realtime"
+          }
+        ],
+        "generated_tokens_cost": 0.01,
+        "input_modalities": [
+          "audio"
+        ],
+        "is_billable": true,
+        "name": "GigaASR",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 0,
+        "provider": "cloud.ru",
+        "type": "audio-to-text"
+      },
+      "object": "model",
+      "owned_by": "GigaChat"
+    },
+    {
+      "id": "GigaChat/SaluteSpeech",
+      "metadata": {
+        "company": "GigaChat",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "GET",
+            "path": "/v1/realtime",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/realtime"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "GET",
+            "path": "/v1/realtime",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/realtime"
+          }
+        ],
+        "name": "SaluteSpeech",
+        "prompt_tokens_cost": 0.41,
+        "provider": "cloud.ru",
+        "type": "tts"
+      },
+      "object": "model",
+      "owned_by": "GigaChat"
+    },
+    {
+      "context_length": 1050000,
+      "function_calling": true,
+      "id": "openai/gpt-6.1-sol",
+      "max_model_len": 1050000,
+      "metadata": {
+        "cache_read_tokens_cost": 17.8,
+        "cache_read_tokens_cost_gt_272k": 35.6,
+        "cache_read_tokens_cost_lt_272k": 17.8,
+        "cache_write_tokens_cost": 444.98,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 1779.92,
+        "generated_tokens_cost_gt_272k": 2669.88,
+        "generated_tokens_cost_lt_272k": 1779.92,
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GPT 6.1 Sol",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 355.98,
+        "prompt_tokens_cost_gt_272k": 711.97,
+        "prompt_tokens_cost_lt_272k": 355.98,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 1050000,
+      "function_calling": true,
+      "id": "openai/gpt-6-astra",
+      "max_model_len": 1050000,
+      "metadata": {
+        "cache_read_tokens_cost": 178,
+        "cache_read_tokens_cost_gt_272k": 355.98,
+        "cache_read_tokens_cost_lt_272k": 178,
+        "cache_write_tokens_cost": 2224.9,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 8899.58,
+        "generated_tokens_cost_gt_272k": 13349.37,
+        "generated_tokens_cost_lt_272k": 8899.58,
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GPT 6 Astra",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 1779.92,
+        "prompt_tokens_cost_gt_272k": 3559.84,
+        "prompt_tokens_cost_lt_272k": 1779.92,
+        "provider": "external",
+        "task_type": [
+          "analysis"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 1050000,
+      "function_calling": true,
+      "id": "openai/gpt-6-sol",
+      "max_model_len": 1050000,
+      "metadata": {
+        "cache_read_tokens_cost": 35.6,
+        "cache_read_tokens_cost_gt_272k": 71.2,
+        "cache_read_tokens_cost_lt_272k": 35.6,
+        "cache_write_tokens_cost": 444.98,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 1779.92,
+        "generated_tokens_cost_gt_272k": 2669.88,
+        "generated_tokens_cost_lt_272k": 1779.92,
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GPT 6 Sol",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 355.98,
+        "prompt_tokens_cost_gt_272k": 711.97,
+        "prompt_tokens_cost_lt_272k": 355.98,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 1050000,
+      "function_calling": true,
+      "id": "openai/gpt-6-luna",
+      "max_model_len": 1050000,
+      "metadata": {
+        "cache_read_tokens_cost": 1.79,
+        "cache_read_tokens_cost_gt_272k": 3.56,
+        "cache_read_tokens_cost_lt_272k": 1.79,
+        "cache_write_tokens_cost": 22.27,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 89,
+        "generated_tokens_cost_gt_272k": 133.5,
+        "generated_tokens_cost_lt_272k": 89,
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GPT 6 Luna",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 17.8,
+        "prompt_tokens_cost_gt_272k": 35.6,
+        "prompt_tokens_cost_lt_272k": 17.8,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 1050000,
+      "function_calling": true,
+      "id": "openai/gpt-5.6-sol",
+      "max_model_len": 1050000,
+      "metadata": {
+        "cache_read_tokens_cost": 71.2,
+        "cache_read_tokens_cost_gt_272k": 142.4,
+        "cache_read_tokens_cost_lt_272k": 71.2,
+        "cache_write_tokens_cost": 889.97,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 3559.84,
+        "generated_tokens_cost_gt_272k": 5339.76,
+        "generated_tokens_cost_lt_272k": 3559.84,
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GPT 5.6 Sol",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 711.97,
+        "prompt_tokens_cost_gt_272k": 1423.94,
+        "prompt_tokens_cost_lt_272k": 711.97,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 1050000,
+      "function_calling": true,
+      "id": "openai/gpt-5.6-terra",
+      "max_model_len": 1050000,
+      "metadata": {
+        "cache_read_tokens_cost": 35.6,
+        "cache_read_tokens_cost_gt_272k": 71.2,
+        "cache_read_tokens_cost_lt_272k": 35.6,
+        "cache_write_tokens_cost": 444.98,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 2135.9,
+        "generated_tokens_cost_gt_272k": 3203.85,
+        "generated_tokens_cost_lt_272k": 2135.9,
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GPT 5.6 Terra",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 355.98,
+        "prompt_tokens_cost_gt_272k": 711.97,
+        "prompt_tokens_cost_lt_272k": 355.98,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 1050000,
+      "function_calling": true,
+      "id": "openai/gpt-5.6-luna",
+      "max_model_len": 1050000,
+      "metadata": {
+        "cache_read_tokens_cost": 3.56,
+        "cache_read_tokens_cost_gt_272k": 7.12,
+        "cache_read_tokens_cost_lt_272k": 3.56,
+        "cache_write_tokens_cost": 44.51,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 213.6,
+        "generated_tokens_cost_gt_272k": 320.4,
+        "generated_tokens_cost_lt_272k": 213.6,
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GPT 5.6 Luna",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 35.6,
+        "prompt_tokens_cost_gt_272k": 71.2,
+        "prompt_tokens_cost_lt_272k": 35.6,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 1050000,
+      "function_calling": true,
+      "id": "openai/gpt-5.5-pro",
+      "max_model_len": 1050000,
+      "metadata": {
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 30744,
+        "generated_tokens_cost_gt_272k": 46116,
+        "generated_tokens_cost_lt_272k": 30744,
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GPT 5.5 Pro",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 5124,
+        "prompt_tokens_cost_gt_272k": 10248,
+        "prompt_tokens_cost_lt_272k": 5124,
+        "provider": "external",
+        "task_type": [
+          "analysis"
+        ],
+        "type": "llm",
+        "web_search_cost": 1708
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 1050000,
+      "function_calling": true,
+      "id": "openai/gpt-5.5",
+      "max_model_len": 1050000,
+      "metadata": {
+        "cache_read_tokens_cost": 85.4,
+        "cache_read_tokens_cost_gt_272k": 170.8,
+        "cache_read_tokens_cost_lt_272k": 85.4,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 5124,
+        "generated_tokens_cost_gt_272k": 7686,
+        "generated_tokens_cost_lt_272k": 5124,
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GPT 5.5",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 854,
+        "prompt_tokens_cost_gt_272k": 1708,
+        "prompt_tokens_cost_lt_272k": 854,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1708
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 1050000,
+      "function_calling": true,
+      "id": "openai/gpt-5.4-pro",
+      "max_model_len": 1050000,
+      "metadata": {
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 30744,
+        "generated_tokens_cost_gt_272k": 46116,
+        "generated_tokens_cost_lt_272k": 30744,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "GPT 5.4 Pro",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 5124,
+        "prompt_tokens_cost_gt_272k": 10248,
+        "prompt_tokens_cost_lt_272k": 5124,
+        "provider": "external",
+        "task_type": [
+          "analysis"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 1050000,
+      "function_calling": true,
+      "id": "openai/gpt-5.4",
+      "max_model_len": 1050000,
+      "metadata": {
+        "cache_read_tokens_cost": 49.105,
+        "cache_read_tokens_cost_gt_272k": 85.4,
+        "cache_read_tokens_cost_lt_272k": 49.105,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 2562,
+        "generated_tokens_cost_gt_272k": 3843,
+        "generated_tokens_cost_lt_272k": 2562,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "GPT 5.4",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 427,
+        "prompt_tokens_cost_gt_272k": 854,
+        "prompt_tokens_cost_lt_272k": 427,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 400000,
+      "function_calling": true,
+      "id": "openai/gpt-5.4-mini",
+      "max_model_len": 400000,
+      "metadata": {
+        "cache_read_tokens_cost": 14.7315,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 883.89,
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GPT 5.4 Mini",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 147.315,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 400000,
+      "function_calling": true,
+      "id": "openai/gpt-5.4-nano",
+      "max_model_len": 400000,
+      "metadata": {
+        "cache_read_tokens_cost": 3.933,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 245.525,
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GPT 5.4 Nano",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 39.284,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 400000,
+      "function_calling": true,
+      "id": "openai/gpt-5.3-codex",
+      "max_model_len": 400000,
+      "metadata": {
+        "cache_read_tokens_cost": 34.3735,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 2749.88,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "GPT 5.3 Codex",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 343.735,
+        "provider": "external",
+        "task_type": [
+          "code"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 400000,
+      "function_calling": true,
+      "id": "openai/gpt-5.2",
+      "max_model_len": 400000,
+      "metadata": {
+        "cache_read_tokens_cost": 34.3735,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 2749.88,
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GPT 5.2",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 343.735,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 400000,
+      "function_calling": true,
+      "id": "openai/gpt-5.1",
+      "max_model_len": 400000,
+      "metadata": {
+        "cache_read_tokens_cost": 24.5525,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 1964.2,
+        "input_modalities": [
+          "image",
+          "text",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "GPT 5.1",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 245.525,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 400000,
+      "function_calling": true,
+      "id": "openai/gpt-5",
+      "max_model_len": 400000,
+      "metadata": {
+        "cache_read_tokens_cost": 24.5525,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 1964.2,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "GPT 5",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 245.525,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 400000,
+      "function_calling": true,
+      "id": "openai/gpt-5-mini",
+      "max_model_len": 400000,
+      "metadata": {
+        "cache_read_tokens_cost": 4.9105,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 392.84,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "GPT 5 Mini",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 49.105,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 400000,
+      "function_calling": true,
+      "id": "openai/gpt-5-nano",
+      "max_model_len": 400000,
+      "metadata": {
+        "cache_read_tokens_cost": 0.9775,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 78.568,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "GPT 5 Nano",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 9.821,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 1047576,
+      "function_calling": true,
+      "id": "openai/gpt-4.1",
+      "max_model_len": 1047576,
+      "metadata": {
+        "cache_read_tokens_cost": 98.21,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 1571.36,
+        "input_modalities": [
+          "image",
+          "text",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "GPT 4.1",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 392.84,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 1047576,
+      "function_calling": true,
+      "id": "openai/gpt-4.1-mini",
+      "max_model_len": 1047576,
+      "metadata": {
+        "cache_read_tokens_cost": 19.642,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 314.272,
+        "input_modalities": [
+          "image",
+          "text",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "GPT 4.1 Mini",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 78.568,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 400000,
+      "function_calling": true,
+      "id": "openai/gpt-chat-latest",
+      "max_model_len": 400000,
+      "metadata": {
+        "cache_read_tokens_cost": 89,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 5339.76,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "GPT Chat Latest",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 889.97,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 128000,
+      "function_calling": true,
+      "id": "openai/chatgpt-4o-latest",
+      "max_model_len": 128000,
+      "metadata": {
+        "cache_read_tokens_cost": 245.525,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 2946.3,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "name": "ChatGPT 4o Latest",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 982.1,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 128000,
+      "function_calling": true,
+      "id": "openai/gpt-4o-mini",
+      "max_model_len": 128000,
+      "metadata": {
+        "cache_read_tokens_cost": 14.7315,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 117.852,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "GPT 4o Mini",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 29.463,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 131072,
+      "function_calling": true,
+      "id": "openai/gpt-oss-20b",
+      "max_model_len": 131072,
+      "metadata": {
+        "cache_read_tokens_cost": 2.944,
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 27.4965,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GPT OSS 20B",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 5.888,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 200000,
+      "function_calling": true,
+      "id": "openai/text-embedding-3-large",
+      "max_model_len": 200000,
+      "metadata": {
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/embeddings",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/embeddings"
+          }
+        ],
+        "generated_tokens_cost": -1,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "name": "Text Embedding 3 Large",
+        "oss": false,
+        "output_modalities": [
+          "embedding"
+        ],
+        "prompt_tokens_cost": 25.53,
+        "provider": "external",
+        "task_type": [
+          "documents"
+        ],
+        "type": "embedder"
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 200000,
+      "function_calling": true,
+      "id": "openai/text-embedding-3-small",
+      "max_model_len": 200000,
+      "metadata": {
+        "company": "openai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/embeddings",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/embeddings"
+          }
+        ],
+        "generated_tokens_cost": -1,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "name": "Text Embedding 3 Small",
+        "oss": false,
+        "output_modalities": [
+          "embedding"
+        ],
+        "prompt_tokens_cost": 3.933,
+        "provider": "external",
+        "task_type": [
+          "documents"
+        ],
+        "type": "embedder"
+      },
+      "object": "model",
+      "owned_by": "OpenAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "anthropic/claude-fable-5.1",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 44.51,
+        "cache_write_1h_tokens_cost": 3559.84,
+        "cache_write_5m_tokens_cost": 2224.9,
+        "cache_write_tokens_cost": 2224.9,
+        "company": "anthropic",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/messages",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/messages"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 8899.58,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "Claude Fable 5.1",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 1779.92,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Anthropic",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "anthropic/claude-fable-5",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 178,
+        "cache_write_1h_tokens_cost": 3559.84,
+        "cache_write_5m_tokens_cost": 2224.9,
+        "cache_write_tokens_cost": 2224.9,
+        "company": "anthropic",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/messages",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/messages"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 8899.58,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "Claude Fable 5",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 1779.92,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Anthropic",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "anthropic/claude-opus-5.5",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 35.6,
+        "cache_write_1h_tokens_cost": 1423.94,
+        "cache_write_5m_tokens_cost": 889.97,
+        "cache_write_tokens_cost": 889.97,
+        "company": "anthropic",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/messages",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/messages"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 3559.84,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "Claude Opus 5.5",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 711.97,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Anthropic",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "anthropic/claude-opus-5",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 89,
+        "cache_write_1h_tokens_cost": 1779.92,
+        "cache_write_5m_tokens_cost": 1112.46,
+        "cache_write_tokens_cost": 1112.46,
+        "company": "anthropic",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/messages",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/messages"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 4449.79,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "Claude Opus 5",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 889.97,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Anthropic",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "anthropic/claude-opus-4.8",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 85.4,
+        "cache_write_1h_tokens_cost": 1708,
+        "cache_write_5m_tokens_cost": 1067.5,
+        "cache_write_tokens_cost": 1067.5,
+        "company": "anthropic",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/messages",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/messages"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 4270,
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "is_billable": true,
+        "name": "Claude Opus 4.8",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 854,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1708
+      },
+      "object": "model",
+      "owned_by": "Anthropic",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "anthropic/claude-opus-4.7",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 85.4,
+        "cache_write_1h_tokens_cost": 1708,
+        "cache_write_5m_tokens_cost": 1067.5,
+        "cache_write_tokens_cost": 1067.5,
+        "company": "anthropic",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/messages",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/messages"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 4270,
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "is_billable": true,
+        "name": "Claude Opus 4.7",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 854,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1708
+      },
+      "object": "model",
+      "owned_by": "Anthropic",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "anthropic/claude-opus-4.6",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 98.21,
+        "cache_write_1h_tokens_cost": 1708,
+        "cache_write_5m_tokens_cost": 1067.5,
+        "cache_write_tokens_cost": 1067.5,
+        "company": "anthropic",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/messages",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/messages"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 4910.5,
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "is_billable": true,
+        "name": "Claude Opus 4.6",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 982.1,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "Anthropic",
+      "structure_output": true
+    },
+    {
+      "context_length": 200000,
+      "function_calling": true,
+      "id": "anthropic/claude-opus-4.5",
+      "max_model_len": 200000,
+      "metadata": {
+        "cache_read_tokens_cost": 98.21,
+        "cache_write_1h_tokens_cost": 1708,
+        "cache_write_5m_tokens_cost": 1067.5,
+        "cache_write_tokens_cost": 1067.5,
+        "company": "anthropic",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/messages",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/messages"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 4910.5,
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "Claude Opus 4.5",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 982.1,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "Anthropic",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "anthropic/claude-sonnet-5.5",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 35.6,
+        "cache_write_1h_tokens_cost": 711.97,
+        "cache_write_5m_tokens_cost": 444.98,
+        "cache_write_tokens_cost": 444.98,
+        "company": "anthropic",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/messages",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/messages"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 1779.92,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "Claude Sonnet 5.5",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 355.98,
+        "provider": "external",
+        "task_type": [
+          "code"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Anthropic",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "anthropic/claude-sonnet-5",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 35.6,
+        "cache_write_1h_tokens_cost": 711.97,
+        "cache_write_5m_tokens_cost": 444.98,
+        "cache_write_tokens_cost": 444.98,
+        "company": "anthropic",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/messages",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/messages"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 1779.92,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "Claude Sonnet 5",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 355.98,
+        "provider": "external",
+        "task_type": [
+          "code"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Anthropic",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "anthropic/claude-sonnet-4.6",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 58.926,
+        "cache_write_1h_tokens_cost": 1024.8,
+        "cache_write_5m_tokens_cost": 640.5,
+        "cache_write_tokens_cost": 640.5,
+        "company": "anthropic",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/messages",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/messages"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 2946.3,
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "is_billable": true,
+        "name": "Claude Sonnet 4.6",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 589.26,
+        "provider": "external",
+        "task_type": [
+          "code"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "Anthropic",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "anthropic/claude-sonnet-4.5",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 58.926,
+        "cache_write_1h_tokens_cost": 1024.8,
+        "cache_write_5m_tokens_cost": 640.5,
+        "cache_write_tokens_cost": 640.5,
+        "company": "anthropic",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/messages",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/messages"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 2946.3,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "is_billable": true,
+        "name": "Claude Sonnet 4.5",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 589.26,
+        "provider": "external",
+        "task_type": [
+          "code"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "Anthropic",
+      "structure_output": true
+    },
+    {
+      "context_length": 200000,
+      "function_calling": true,
+      "id": "anthropic/claude-haiku-4.5",
+      "max_model_len": 200000,
+      "metadata": {
+        "cache_read_tokens_cost": 19.642,
+        "cache_write_1h_tokens_cost": 341.6,
+        "cache_write_5m_tokens_cost": 213.5,
+        "cache_write_tokens_cost": 213.5,
+        "company": "anthropic",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/messages",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/messages"
+          },
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 982.1,
+        "input_modalities": [
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "Claude Haiku 4.5",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 196.42,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm",
+        "web_search_cost": 1964.2
+      },
+      "object": "model",
+      "owned_by": "Anthropic",
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "google/gemini-3.8-flash",
+      "max_model_len": 1048576,
+      "metadata": {
+        "cache_read_tokens_cost": 13.36,
+        "company": "google",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 667.47,
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file",
+          "audio"
+        ],
+        "is_billable": true,
+        "name": "Gemini 3.8 Flash",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 133.5,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 2491.89
+      },
+      "object": "model",
+      "owned_by": "Google",
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "google/gemini-3.7-flash",
+      "max_model_len": 1048576,
+      "metadata": {
+        "cache_read_tokens_cost": 13.36,
+        "company": "google",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 667.47,
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file",
+          "audio"
+        ],
+        "is_billable": true,
+        "name": "Gemini 3.7 Flash",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 133.5,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 2491.89
+      },
+      "object": "model",
+      "owned_by": "Google",
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "google/gemini-3.6-flash",
+      "max_model_len": 1048576,
+      "metadata": {
+        "cache_read_tokens_cost": 13.36,
+        "company": "google",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 667.47,
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file",
+          "audio"
+        ],
+        "is_billable": true,
+        "name": "Gemini 3.6 Flash",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 133.5,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 2491.89
+      },
+      "object": "model",
+      "owned_by": "Google",
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "google/gemini-3.5-flash",
+      "max_model_len": 1048576,
+      "metadata": {
+        "cache_read_tokens_cost": 26.71,
+        "company": "google",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 1601.93,
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file",
+          "audio"
+        ],
+        "is_billable": true,
+        "name": "Gemini 3.5 Flash",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 267,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 2491.89
+      },
+      "object": "model",
+      "owned_by": "Google",
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "google/gemini-3.5-flash-lite",
+      "max_model_len": 1048576,
+      "metadata": {
+        "audio_tokens_cost": 53.4,
+        "cache_read_tokens_cost": 5.34,
+        "company": "google",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 444.98,
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file",
+          "audio"
+        ],
+        "is_billable": true,
+        "name": "Gemini 3.5 Flash Lite",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 53.4,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm",
+        "web_search_cost": 2491.89
+      },
+      "object": "model",
+      "owned_by": "Google",
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "google/gemini-3.1-pro-preview",
+      "max_model_len": 1048576,
+      "metadata": {
+        "audio_tokens_cost": 392.84,
+        "cache_read_tokens_cost": 39.284,
+        "cache_read_tokens_cost_gt_200k": 68.32,
+        "cache_read_tokens_cost_lt_200k": 39.284,
+        "cache_write_tokens_cost": 768.6,
+        "company": "google",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 2049.6,
+        "generated_tokens_cost_gt_200k": 3074.4,
+        "generated_tokens_cost_lt_200k": 2049.6,
+        "input_modalities": [
+          "audio",
+          "file",
+          "image",
+          "text",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "Gemini 3.1 Pro Preview",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 341.6,
+        "prompt_tokens_cost_gt_200k": 683.2,
+        "prompt_tokens_cost_lt_200k": 341.6,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 2391.2
+      },
+      "object": "model",
+      "owned_by": "Google",
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "google/gemini-3.1-flash-lite",
+      "max_model_len": 1048576,
+      "metadata": {
+        "audio_tokens_cost": 98.21,
+        "cache_read_tokens_cost": 4.9105,
+        "cache_read_tokens_cost_gt_200k": 4.27,
+        "cache_read_tokens_cost_lt_200k": 4.9105,
+        "cache_write_tokens_cost": 170.8,
+        "company": "google",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 256.2,
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file",
+          "audio"
+        ],
+        "is_billable": true,
+        "name": "Gemini 3.1 Flash Lite",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 42.7,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm",
+        "web_search_cost": 2391.2
+      },
+      "object": "model",
+      "owned_by": "Google",
+      "structure_output": true
+    },
+    {
+      "context_length": 65536,
+      "function_calling": true,
+      "id": "google/gemini-3.1-flash-image-preview",
+      "max_model_len": 65536,
+      "metadata": {
+        "company": "google",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 589.26,
+        "image_generated_tokens_cost": 11785.2,
+        "input_modalities": [
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "Gemini 3.1 Flash Image Preview",
+        "oss": false,
+        "output_modalities": [
+          "image",
+          "text"
+        ],
+        "prompt_tokens_cost": 98.21,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 2391.2
+      },
+      "object": "model",
+      "owned_by": "Google",
+      "structure_output": true
+    },
+    {
+      "context_length": 65536,
+      "function_calling": false,
+      "id": "google/gemini-3.1-flash-lite-image",
+      "max_model_len": 65536,
+      "metadata": {
+        "company": "google",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 267,
+        "image_generated_tokens_cost": 5339.76,
+        "input_modalities": [
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "Gemini 3.1 Flash Lite Image",
+        "oss": false,
+        "output_modalities": [
+          "image",
+          "text"
+        ],
+        "prompt_tokens_cost": 44.51,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "Google",
+      "structure_output": false
+    },
+    {
+      "context_length": 65536,
+      "function_calling": true,
+      "id": "google/gemini-3-pro-image-preview",
+      "max_model_len": 65536,
+      "metadata": {
+        "company": "google",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 2357.04,
+        "image_generated_tokens_cost": 23570.4,
+        "input_modalities": [
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "Gemini 3 Pro Image Preview",
+        "oss": false,
+        "output_modalities": [
+          "image",
+          "text"
+        ],
+        "prompt_tokens_cost": 392.84,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 2391.2
+      },
+      "object": "model",
+      "owned_by": "Google",
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "google/gemini-3-flash-preview",
+      "max_model_len": 1048576,
+      "metadata": {
+        "audio_tokens_cost": 196.42,
+        "cache_read_tokens_cost": 9.821,
+        "cache_read_tokens_cost_gt_200k": 8.54,
+        "cache_read_tokens_cost_lt_200k": 9.821,
+        "cache_write_tokens_cost": 170.8,
+        "company": "google",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 512.4,
+        "input_modalities": [
+          "text",
+          "image",
+          "file",
+          "audio",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "Gemini 3 Flash Preview",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 85.4,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 2391.2
+      },
+      "object": "model",
+      "owned_by": "Google",
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "google/gemini-2.5-pro",
+      "max_model_len": 1048576,
+      "metadata": {
+        "audio_tokens_cost": 245.525,
+        "cache_read_tokens_cost": 21.35,
+        "cache_read_tokens_cost_gt_200k": 42.7,
+        "cache_read_tokens_cost_lt_200k": 21.35,
+        "cache_write_tokens_cost": 768.6,
+        "company": "google",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 1708,
+        "generated_tokens_cost_gt_200k": 2562,
+        "generated_tokens_cost_lt_200k": 1708,
+        "input_modalities": [
+          "text",
+          "image",
+          "file",
+          "audio",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "Gemini 2.5 Pro",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 213.5,
+        "prompt_tokens_cost_gt_200k": 427,
+        "prompt_tokens_cost_lt_200k": 213.5,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 5978
+      },
+      "object": "model",
+      "owned_by": "Google",
+      "structure_output": true
+    },
+    {
+      "context_length": 32768,
+      "function_calling": true,
+      "id": "google/gemini-2.5-flash-image",
+      "max_model_len": 32768,
+      "metadata": {
+        "company": "google",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 491.05,
+        "image_generated_tokens_cost": 5892.6,
+        "input_modalities": [
+          "image",
+          "text"
+        ],
+        "is_billable": true,
+        "name": "Gemini 2.5 Flash Image",
+        "oss": false,
+        "output_modalities": [
+          "image",
+          "text"
+        ],
+        "prompt_tokens_cost": 58.926,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "Google",
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "google/gemini-2.5-flash",
+      "max_model_len": 1048576,
+      "metadata": {
+        "audio_tokens_cost": 196.42,
+        "cache_read_tokens_cost": 5.888,
+        "cache_write_tokens_cost": 170.8,
+        "company": "google",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 491.05,
+        "input_modalities": [
+          "file",
+          "image",
+          "text",
+          "audio",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "Gemini 2.5 Flash",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 58.926,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 5978
+      },
+      "object": "model",
+      "owned_by": "Google",
+      "structure_output": true
+    },
+    {
+      "context_length": 200000,
+      "id": "google/gemini-embedding-001",
+      "max_model_len": 200000,
+      "metadata": {
+        "company": "google",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/embeddings",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/embeddings"
+          }
+        ],
+        "generated_tokens_cost": -1,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "name": "gemini-embedding-001",
+        "oss": false,
+        "output_modalities": [
+          "embedding"
+        ],
+        "prompt_tokens_cost": 29.463,
+        "provider": "external",
+        "task_type": [
+          "documents"
+        ],
+        "type": "embedder"
+      },
+      "object": "model",
+      "owned_by": "Google"
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "zai-org/GLM-5.3",
+      "max_model_len": 1048576,
+      "metadata": {
+        "cache_read_tokens_cost": 43.2978,
+        "company": "zai-org",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 606.0472,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/raw/main/markdown/mit.md",
+        "name": "GLM-5.3",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 173.1546,
+        "provider": "external",
+        "readme": "https://huggingface.co/zai-org/GLM-5.3/blob/main/README.md",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "zai-org",
+      "reasoning": true,
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "z-ai/glm-5.3-flashx",
+      "max_model_len": 1048576,
+      "metadata": {
+        "cache_read_tokens_cost": 13.36,
+        "company": "zai-org",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 222.49,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "GLM-5.3-FlashX",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 65.86,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "zai-org",
+      "structure_output": false
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "z-ai/glm-5.3-flash",
+      "max_model_len": 1048576,
+      "metadata": {
+        "cache_read_tokens_cost": 5.34,
+        "company": "zai-org",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 89,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "GLM-5.3-Flash",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 26.71,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "zai-org",
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "zai-org/GLM-5.2",
+      "max_model_len": 1048576,
+      "metadata": {
+        "cache_read_tokens_cost": 43.2978,
+        "company": "zai-org",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 606.0472,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/raw/main/markdown/mit.md",
+        "name": "GLM-5.2",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 173.1546,
+        "provider": "external",
+        "readme": "https://huggingface.co/zai-org/GLM-5.2/blob/main/README.md",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1708
+      },
+      "object": "model",
+      "owned_by": "zai-org",
+      "reasoning": true,
+      "structure_output": true
+    },
+    {
+      "context_length": 202752,
+      "function_calling": true,
+      "id": "z-ai/glm-5",
+      "max_model_len": 202752,
+      "metadata": {
+        "cache_read_tokens_cost": 34.16,
+        "company": "zai-org",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 546.56,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GLM-5",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 170.8,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1708
+      },
+      "object": "model",
+      "owned_by": "zai-org",
+      "reasoning": true,
+      "structure_output": true
+    },
+    {
+      "context_length": 202752,
+      "function_calling": true,
+      "id": "z-ai/glm-5v-turbo",
+      "max_model_len": 202752,
+      "metadata": {
+        "cache_read_tokens_cost": 42.72,
+        "company": "zai-org",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 711.97,
+        "input_modalities": [
+          "image",
+          "text",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "GLM-5V-Turbo",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 213.6,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "zai-org",
+      "structure_output": false
+    },
+    {
+      "context_length": 200000,
+      "function_calling": true,
+      "id": "z-ai/glm-4.7-flash",
+      "max_model_len": 200000,
+      "metadata": {
+        "cache_read_tokens_cost": 1.79,
+        "company": "zai-org",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 71.2,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GLM-4.7-Flash",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 12.47,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "zai-org",
+      "structure_output": true
+    },
+    {
+      "context_length": 204800,
+      "function_calling": true,
+      "id": "z-ai/glm-4.6",
+      "max_model_len": 204800,
+      "metadata": {
+        "cache_read_tokens_cost": 18.788,
+        "company": "zai-org",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 375.76,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GLM-4.6",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 102.48,
+        "provider": "external",
+        "task_type": [
+          "code"
+        ],
+        "type": "llm",
+        "web_search_cost": 1708
+      },
+      "object": "model",
+      "owned_by": "zai-org",
+      "structure_output": true
+    },
+    {
+      "context_length": 131072,
+      "function_calling": true,
+      "id": "z-ai/glm-4.6v",
+      "max_model_len": 131072,
+      "metadata": {
+        "cache_read_tokens_cost": 8.54,
+        "company": "zai-org",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 176.778,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "GLM-4.6V",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 58.926,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1708
+      },
+      "object": "model",
+      "owned_by": "zai-org",
+      "structure_output": true
+    },
+    {
+      "context_length": 131072,
+      "function_calling": true,
+      "id": "z-ai/glm-4.5-air",
+      "max_model_len": 131072,
+      "metadata": {
+        "cache_read_tokens_cost": 4.9105,
+        "company": "zai-org",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 187.88,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "name": "GLM-4.5-Air",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 34.16,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm",
+        "web_search_cost": 1708
+      },
+      "object": "model",
+      "owned_by": "zai-org",
+      "structure_output": true
+    },
+    {
+      "context_length": 1050000,
+      "function_calling": true,
+      "id": "xiaomi/mimo-v2.6-flash",
+      "max_model_len": 1050000,
+      "metadata": {
+        "cache_read_tokens_cost": 0.51,
+        "company": "xiaomi",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 49.85,
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "is_billable": true,
+        "name": "MiMo-V2.6-Flash",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 24.92,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 889.97
+      },
+      "object": "model",
+      "owned_by": "Xiaomi",
+      "structure_output": true
+    },
+    {
+      "context_length": 1050000,
+      "function_calling": true,
+      "id": "xiaomi/mimo-v2.6-pro",
+      "max_model_len": 1050000,
+      "metadata": {
+        "cache_read_tokens_cost": 0.65,
+        "company": "xiaomi",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 154.85,
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "is_billable": true,
+        "name": "MiMo-V2.6-Pro",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 77.43,
+        "provider": "external",
+        "task_type": [
+          "analysis"
+        ],
+        "type": "llm",
+        "web_search_cost": 889.97
+      },
+      "object": "model",
+      "owned_by": "Xiaomi",
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "max_model_len": 1048576,
+      "metadata": {
+        "cache_read_tokens_cost": 6.42,
+        "company": "xiaomi",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 1548.53,
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "is_billable": true,
+        "name": "MiMo-V2.6-Pro-UltraSpeed",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 774.27,
+        "provider": "external",
+        "task_type": [
+          "analysis"
+        ],
+        "type": "llm",
+        "web_search_cost": 889.97
+      },
+      "object": "model",
+      "owned_by": "Xiaomi",
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "qwen/qwen3.8-2.4t-a95b",
+      "max_model_len": 1048576,
+      "metadata": {
+        "cache_read_tokens_cost": 44.51,
+        "company": "qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 1067.95,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "name": "Qwen3.8 2.4T A95B",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 355.98,
+        "provider": "external",
+        "task_type": [
+          "analysis"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Qwen",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "qwen/qwen3.8-max",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 44.51,
+        "company": "qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 1067.95,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "Qwen3.8 Max",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 355.98,
+        "provider": "external",
+        "task_type": [
+          "analysis"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Qwen",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "qwen/qwen3.8-omni-flash",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 2.85,
+        "company": "qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 83.66,
+        "input_modalities": [
+          "text",
+          "image",
+          "audio",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "Qwen3.8 Omni Flash",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 26.71,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Qwen",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "qwen/qwen3.8-flash",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 2.85,
+        "company": "qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 83.66,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "Qwen3.8 Flash",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 26.71,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Qwen",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "qwen/qwen3.8-27b",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 17.8,
+        "company": "qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 533.98,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "Qwen3.8 27B",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 89,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Qwen",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "qwen/qwen3.7-max",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 89,
+        "company": "qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 1334.95,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "name": "Qwen3.7 Max",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 444.98,
+        "provider": "external",
+        "task_type": [
+          "analysis"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Qwen",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "qwen/qwen3.7-plus",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 14.25,
+        "cache_read_tokens_cost_256k_1m": 42.72,
+        "cache_read_tokens_cost_lt_256k": 14.25,
+        "company": "qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 284.8,
+        "generated_tokens_cost_256k_1m": 854.37,
+        "generated_tokens_cost_lt_256k": 284.8,
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "is_billable": true,
+        "name": "Qwen3.7 Plus",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 71.2,
+        "prompt_tokens_cost_256k_1m": 213.6,
+        "prompt_tokens_cost_lt_256k": 71.2,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Qwen",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "qwen/qwen3.7-flash",
+      "max_model_len": 1000000,
+      "metadata": {
+        "cache_read_tokens_cost": 1.09,
+        "cache_read_tokens_cost_256k_1m": 7.12,
+        "cache_read_tokens_cost_32k_256k": 3.56,
+        "cache_read_tokens_cost_lt_32k": 1.09,
+        "company": "qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 23.14,
+        "generated_tokens_cost_256k_1m": 142.4,
+        "generated_tokens_cost_32k_256k": 71.2,
+        "generated_tokens_cost_lt_32k": 23.14,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "Qwen3.7 Flash",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 5.34,
+        "prompt_tokens_cost_256k_1m": 35.6,
+        "prompt_tokens_cost_32k_256k": 17.8,
+        "prompt_tokens_cost_lt_32k": 5.34,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Qwen",
+      "structure_output": false
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "qwen/qwen3.6-plus",
+      "max_model_len": 1000000,
+      "metadata": {
+        "company": "qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 533.98,
+        "generated_tokens_cost_256k_1m": 1067.95,
+        "generated_tokens_cost_lt_256k": 533.98,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "Qwen3.6 Plus",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 89,
+        "prompt_tokens_cost_256k_1m": 355.98,
+        "prompt_tokens_cost_lt_256k": 89,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Qwen",
+      "structure_output": true
+    },
+    {
+      "context_length": 1000000,
+      "function_calling": true,
+      "id": "qwen/qwen3.6-flash",
+      "max_model_len": 1000000,
+      "metadata": {
+        "company": "qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 267,
+        "generated_tokens_cost_256k_1m": 711.97,
+        "generated_tokens_cost_lt_256k": 267,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "Qwen3.6 Flash",
+        "oss": false,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 44.51,
+        "prompt_tokens_cost_256k_1m": 178,
+        "prompt_tokens_cost_lt_256k": 44.51,
+        "provider": "external",
+        "task_type": [
+          "communication"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Qwen",
+      "structure_output": true
+    },
+    {
+      "context_length": 262144,
+      "function_calling": true,
+      "id": "qwen/qwen3.6-27b",
+      "max_model_len": 262144,
+      "metadata": {
+        "company": "qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 640.78,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "Qwen3.6 27B",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 106.8,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 1779.92
+      },
+      "object": "model",
+      "owned_by": "Qwen",
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "moonshotai/kimi-k3",
+      "max_model_len": 1048576,
+      "metadata": {
+        "cache_read_tokens_cost": 53.4,
+        "cache_write_1h_tokens_cost": 1067.95,
+        "cache_write_5m_tokens_cost": 533.98,
+        "cache_write_tokens_cost": 533.98,
+        "company": "moonshotai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 2669.88,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "is_billable": true,
+        "name": "kimi-k3",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 533.98,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm",
+        "web_search_cost": 889.97
+      },
+      "object": "model",
+      "owned_by": "MoonshotAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 262144,
+      "function_calling": true,
+      "id": "moonshotai/kimi-k2.7-code",
+      "max_model_len": 262144,
+      "metadata": {
+        "cache_read_tokens_cost": 33.82,
+        "company": "moonshotai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 711.97,
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "is_billable": true,
+        "name": "kimi-k2.7-code",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 169.09,
+        "provider": "external",
+        "task_type": [
+          "code"
+        ],
+        "type": "llm",
+        "web_search_cost": 889.97
+      },
+      "object": "model",
+      "owned_by": "MoonshotAI",
+      "structure_output": true
+    },
+    {
+      "context_length": 131072,
+      "function_calling": true,
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "max_model_len": 131072,
+      "metadata": {
+        "company": "meta-llama",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 62.859,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "name": "llama-3.3-70b-instruct",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 21.2175,
+        "provider": "external",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "Meta",
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "max_model_len": 1048576,
+      "metadata": {
+        "cache_read_tokens_cost": 6.5,
+        "company": "deepseek-ai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 194.81,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/raw/main/markdown/mit.md",
+        "name": "DeepSeek-V4.1-Flash-1017",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 64.94,
+        "provider": "external",
+        "readme": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/README.md",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "deepseek-ai",
+      "reasoning": true,
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "max_model_len": 1048576,
+      "metadata": {
+        "cache_read_tokens_cost": 6.5,
+        "company": "deepseek-ai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 194.81,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/raw/main/markdown/mit.md",
+        "name": "DeepSeek-V4.1-Flash",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 64.94,
+        "provider": "external",
+        "readme": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/README.md",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "deepseek-ai",
+      "reasoning": true,
+      "structure_output": true
+    },
+    {
+      "context_length": 1048576,
+      "function_calling": true,
+      "id": "deepseek-ai/DeepSeek-V4-Flash",
+      "max_model_len": 1048576,
+      "metadata": {
+        "company": "deepseek-ai",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 86.5834,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://huggingface.co/datasets/choosealicense/licenses/raw/main/markdown/mit.md",
+        "name": "DeepSeek-V4-Flash",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 43.2978,
+        "provider": "external",
+        "readme": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash/blob/main/README.md",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "deepseek-ai",
+      "reasoning": true,
+      "structure_output": true
+    },
+    {
+      "capabilities": [
+        "tool_choice",
+        "tool_use",
+        "tools",
+        "structured_outputs"
+      ],
+      "context_length": 40960,
+      "function_calling": true,
+      "id": "Qwen/Qwen3-30B-A3B",
+      "max_model_len": 40960,
+      "metadata": {
+        "company": "Qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 64.9406,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://choosealicense.com/licenses/apache-2.0",
+        "name": "Qwen3-30B-A3B",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 16.2382,
+        "provider": "external",
+        "readme": "https://huggingface.co/Qwen/Qwen3-30B-A3B/blob/main/README.md",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "Qwen",
+      "reasoning": true,
+      "reasoning_optional": true,
+      "structure_output": true
+    },
+    {
+      "capabilities": [
+        "tool_choice",
+        "tool_use",
+        "tools",
+        "structured_outputs"
+      ],
+      "context_length": 40960,
+      "function_calling": true,
+      "id": "Qwen/Qwen3-32B",
+      "max_model_len": 40960,
+      "metadata": {
+        "company": "Qwen",
+        "endpoints": [
+          {
+            "host": "foundation-models.api.cloud.ru",
+            "method": "POST",
+            "path": "/v1/chat/completions",
+            "scheme": "HTTPS",
+            "uri": "https://foundation-models.api.cloud.ru/v1/chat/completions"
+          }
+        ],
+        "generated_tokens_cost": 173.1546,
+        "input_modalities": [
+          "text"
+        ],
+        "is_billable": true,
+        "license": "https://choosealicense.com/licenses/apache-2.0",
+        "name": "Qwen3-32B",
+        "oss": true,
+        "output_modalities": [
+          "text"
+        ],
+        "prompt_tokens_cost": 43.2978,
+        "provider": "external",
+        "readme": "https://huggingface.co/Qwen/Qwen3-32B/blob/main/README.md",
+        "task_type": [
+          "universal"
+        ],
+        "type": "llm"
+      },
+      "object": "model",
+      "owned_by": "Qwen",
+      "reasoning": true,
+      "reasoning_optional": true,
+      "structure_output": true
+    }
+  ]
+}

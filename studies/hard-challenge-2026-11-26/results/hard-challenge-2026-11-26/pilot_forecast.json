@@ -1,0 +1,33 @@
+{
+  "pilot": {
+    "passed": true,
+    "observations": 32,
+    "estimated_rub": 44.160597139999986,
+    "per_model": {
+      "sonnet55": {
+        "n": 16,
+        "mean_cost": 0.6735822187500001
+      },
+      "astra": {
+        "n": 16,
+        "mean_cost": 2.0864551025
+      }
+    },
+    "stopping_reason": null
+  },
+  "plan_projection_by_model": {
+    "sonnet55": {
+      "calls_planned": 384,
+      "pilot_mean_cost_rub": 0.6735822187500001,
+      "projected_cost_rub": 258.65557200000006
+    },
+    "astra": {
+      "calls_planned": 384,
+      "pilot_mean_cost_rub": 2.0864551025,
+      "projected_cost_rub": 801.1987593599999
+    }
+  },
+  "projected_total_rub": 1059.85433136,
+  "projection_with_5pct_reserve": 1112.8470479280002,
+  "note": "Forecast from 4 fixed pilot scenes, uncertainty not a spending authorization. Actual usage drives hard cap after every pair."
+}

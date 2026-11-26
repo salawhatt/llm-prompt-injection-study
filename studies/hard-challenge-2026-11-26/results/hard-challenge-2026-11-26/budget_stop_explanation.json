@@ -1,0 +1,23 @@
+{
+  "next_pair": [
+    {
+      "case": "hc26-11-3-attack",
+      "arm": "B",
+      "model_name": "sonnet55",
+      "repeat": 4
+    },
+    {
+      "case": "hc26-11-3-attack",
+      "arm": "B",
+      "model_name": "astra",
+      "repeat": 4
+    }
+  ],
+  "next_pair_reserve_rub": 37.549789305000004,
+  "remaining_internal_capacity_rub": 36.51873022499922,
+  "usage_estimate_rub": 1133.7916855000003,
+  "margin_rub": 56.68958427500047,
+  "estimated_cap_minus_usage_rub": 93.20831449999969,
+  "unexecuted_additional_calls": 234,
+  "note": "Not an actual billing balance. Stop before complete pair exceeding the shared cap."
+}

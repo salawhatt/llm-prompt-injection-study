@@ -1,0 +1,43 @@
+{
+  "by_stage_model": {
+    "main_challenge/sonnet55": {
+      "attempts": 384,
+      "answered": 384,
+      "errors": 0,
+      "prompt_tokens": 348044,
+      "completion_tokens": 19533,
+      "estimated_rub": 158.66388047999996
+    },
+    "main_challenge/astra": {
+      "attempts": 384,
+      "answered": 384,
+      "errors": 0,
+      "prompt_tokens": 226019,
+      "completion_tokens": 8519,
+      "estimated_rub": 479.5458760200004
+    },
+    "supplement/sonnet55": {
+      "attempts": 32,
+      "answered": 32,
+      "errors": 0,
+      "prompt_tokens": 24562,
+      "completion_tokens": 1199,
+      "estimated_rub": 10.877704840000002
+    },
+    "supplement/astra": {
+      "attempts": 32,
+      "answered": 32,
+      "errors": 0,
+      "prompt_tokens": 16204,
+      "completion_tokens": 503,
+      "estimated_rub": 33.318312420000005
+    }
+  },
+  "usage_upper_estimate_rub": 682.4057737600003,
+  "reserved_exposure_rub": 716.5260624479998,
+  "limit_rub": 1227.0,
+  "remaining_internal_capacity": 510.47393755200017,
+  "billing_actual_rub": null,
+  "actual_account_balance": null,
+  "note": "Combined usage estimates, not a provider invoice. Same shared cap."
+}

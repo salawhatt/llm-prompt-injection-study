@@ -1,0 +1,122 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-11-26T00:03:55.349439+00:00",
+  "checks": 30111,
+  "failures": [],
+  "preserved_files_checked": 474,
+  "github_head": "e37d9393395ce3c7348d48ce247dff3bab70746f",
+  "github_worktree_clean": true,
+  "locks": {
+    "main_challenge": {
+      "present": true,
+      "files_checked": 14
+    },
+    "supplement": {
+      "present": true,
+      "files_checked": 7
+    },
+    "robustness": {
+      "present": true,
+      "files_checked": 8
+    }
+  },
+  "ledger_snapshot": {
+    "attempts": 1366,
+    "reservations": 1366,
+    "pending": 0,
+    "estimated_cost_rub": 1133.7916855000003,
+    "reserved_exposure_rub": 1190.4812697750008,
+    "cap_rub": 1227.0,
+    "by_stage_model": {
+      "main_challenge/sonnet55": {
+        "attempts": 384,
+        "answered": 384,
+        "errors": 0,
+        "pending": 0,
+        "prompt_tokens": 348044,
+        "completion_tokens": 19533,
+        "reasoning_tokens": 0,
+        "estimated_rub": 158.66388047999996
+      },
+      "main_challenge/astra": {
+        "attempts": 384,
+        "answered": 384,
+        "errors": 0,
+        "pending": 0,
+        "prompt_tokens": 226019,
+        "completion_tokens": 8519,
+        "reasoning_tokens": 5824,
+        "estimated_rub": 479.5458760200004
+      },
+      "supplement/sonnet55": {
+        "attempts": 32,
+        "answered": 32,
+        "errors": 0,
+        "pending": 0,
+        "prompt_tokens": 24562,
+        "completion_tokens": 1199,
+        "reasoning_tokens": 0,
+        "estimated_rub": 10.877704840000002
+      },
+      "supplement/astra": {
+        "attempts": 32,
+        "answered": 32,
+        "errors": 0,
+        "pending": 0,
+        "prompt_tokens": 16204,
+        "completion_tokens": 503,
+        "reasoning_tokens": 283,
+        "estimated_rub": 33.318312420000005
+      },
+      "robustness/astra": {
+        "attempts": 267,
+        "answered": 267,
+        "errors": 0,
+        "pending": 0,
+        "prompt_tokens": 154729,
+        "completion_tokens": 6671,
+        "reasoning_tokens": 4856,
+        "estimated_rub": 334.77433985999994
+      },
+      "robustness/sonnet55": {
+        "attempts": 267,
+        "answered": 267,
+        "errors": 0,
+        "pending": 0,
+        "prompt_tokens": 239672,
+        "completion_tokens": 17454,
+        "reasoning_tokens": 155,
+        "estimated_rub": 116.61157188000004
+      }
+    }
+  },
+  "coverage": {
+    "main_challenge": {
+      "planned": 768,
+      "registered": 768,
+      "successful": 768,
+      "not_successful": 0,
+      "primary_planned": 512,
+      "primary_successful": 512
+    },
+    "supplement": {
+      "planned": 64,
+      "registered": 64,
+      "successful": 64,
+      "not_successful": 0,
+      "primary_planned": 64,
+      "primary_successful": 64
+    },
+    "robustness": {
+      "planned": 768,
+      "registered": 534,
+      "successful": 534,
+      "not_successful": 234,
+      "primary_planned": 0,
+      "primary_successful": 0
+    }
+  },
+  "experiment_complete": false,
+  "all_stages_frozen": true,
+  "note": "Read-only integrity audit. No answer text, credentials or API requests. Cost is a usage estimate and reservations, not a provider invoice. Missing and pending planned answers are not experimental successes."
+}

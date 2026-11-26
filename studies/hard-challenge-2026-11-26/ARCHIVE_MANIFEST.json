@@ -1,0 +1,582 @@
+{
+  "created_utc": "2026-11-26T00:04:12.358870+00:00",
+  "study": "hard-challenge-2026-11-26",
+  "scope": "Separate saved-results archive, not a complete original-project checkout.",
+  "serialized_dependencies": {
+    "D": "sklearn.pipeline.Pipeline",
+    "E": "research_defense.Detector",
+    "E_local_imports": [
+      "research_data",
+      "experiment_core"
+    ]
+  },
+  "sqlite_method": "sqlite3.Connection.backup; no WAL/SHM copied; source is read-only",
+  "sqlite_source_sha256": "ad9d3373eda9967ab8a53a4b5f595a3d0e856c1ec5ed4de48b4f9a033e579e82",
+  "completion": false,
+  "files": {
+    "PACKAGING_VALIDATION.json": {
+      "bytes": 3251,
+      "sha256": "a7fa401c581e7fd81a998ffdddb76f8d2f38a5aba8df419bb7ca627cce78c395"
+    },
+    "README.md": {
+      "bytes": 4448,
+      "sha256": "5a1bb113939302838574d5d787adb0850e2aa40107a2e93fc11e01910af44550"
+    },
+    "experiments/hard-challenge-2026-11-26/PROTOCOL.md": {
+      "bytes": 10626,
+      "sha256": "3bd6e959ba9a7564fc9fa232538650327b9a2ba8962a94d69bd138399d7f4c2c"
+    },
+    "experiments/hard-challenge-2026-11-26/README.md": {
+      "bytes": 6072,
+      "sha256": "382bf39e0ca6f29d64afb2eb8614e6f78b619ce0da33a2a1794e49c7a1adb07e"
+    },
+    "experiments/hard-challenge-2026-11-26/SUPPLEMENT_PROTOCOL.md": {
+      "bytes": 2463,
+      "sha256": "b7a1631ced9fc9ff28b34b61468109b11f154cff14e48e404ae60fcb2eb3fcbd"
+    },
+    "experiments/hard-challenge-2026-11-26/analyze-all.ps1": {
+      "bytes": 1296,
+      "sha256": "1e9b04b9b1412db3aa40e90222c6f0649b8923800d38bb47b869f64987160938"
+    },
+    "experiments/hard-challenge-2026-11-26/analyze.py": {
+      "bytes": 32933,
+      "sha256": "d7cfb1d69cc6546ea087f77062f3536244d19344a2156b37b23db6c7bf4ca268"
+    },
+    "experiments/hard-challenge-2026-11-26/continuation.py": {
+      "bytes": 26008,
+      "sha256": "024e8fb8b0eb6f79575f3cb26112d544532ec76a9d1650ea8034cc630edcb90a"
+    },
+    "experiments/hard-challenge-2026-11-26/materials.py": {
+      "bytes": 85738,
+      "sha256": "e362fc2eceb74d882abf7e54dc7b6095b89a69bbff88487a209ceabf85dfc920"
+    },
+    "experiments/hard-challenge-2026-11-26/package_results.py": {
+      "bytes": 17595,
+      "sha256": "36a5d08b2a57e462f6c7d353254ce48620efc3a15c3f34cd6d44371b34a3ebc8"
+    },
+    "experiments/hard-challenge-2026-11-26/post_analysis.py": {
+      "bytes": 48742,
+      "sha256": "c471f40a53687bfed90e32005b05e8a29c6dc68038cc3c012f7d5a467c161b0e"
+    },
+    "experiments/hard-challenge-2026-11-26/run-extra.ps1": {
+      "bytes": 1303,
+      "sha256": "60be84d1ce14d47307d9ca6f5ee3550fbc7c2b704806ad9447ae94ce4e8ba52d"
+    },
+    "experiments/hard-challenge-2026-11-26/run.ps1": {
+      "bytes": 1212,
+      "sha256": "e2d306513320596e4ee352b5663d8f63a3dd489aa9d298543e6faf111ef84790"
+    },
+    "experiments/hard-challenge-2026-11-26/run.py": {
+      "bytes": 14493,
+      "sha256": "d24dffa2c2577273344dca7e65d1c58379feba1b7bfe0fb0d9df2a3ff3c2b815"
+    },
+    "experiments/hard-challenge-2026-11-26/supplement.py": {
+      "bytes": 7365,
+      "sha256": "6b815340dc0228623beb4498f034b831549b03b6e366e8aed774379f71e1d657"
+    },
+    "experiments/hard-challenge-2026-11-26/supplement_materials.py": {
+      "bytes": 19369,
+      "sha256": "62e20487a8408b5d1abbdc97d898dfaecff02515406796183798d938cf4f307a"
+    },
+    "experiments/hard-challenge-2026-11-26/test_runner.py": {
+      "bytes": 3095,
+      "sha256": "a3f5c501f081afc13e6c1191911542ecfb89e2e373311871bcbdb32f7fd82d0e"
+    },
+    "experiments/hard-challenge-2026-11-26/tests_analytics.py": {
+      "bytes": 10440,
+      "sha256": "0e78adb2a464e15c43fb3769f4bea8f413ddb6501b361b0bf0fbdc3fef00a2c4"
+    },
+    "experiments/hard-challenge-2026-11-26/tests_continuation.py": {
+      "bytes": 12704,
+      "sha256": "c34feceeceaebeec47af365d4c080419dd015c8d56e554d95824595055c712bb"
+    },
+    "experiments/hard-challenge-2026-11-26/tests_post_analysis.py": {
+      "bytes": 7845,
+      "sha256": "6f46ac1b80618fbebec6a35479f4292e4be9232f7c0b9587252ab95123042411"
+    },
+    "experiments/hard-challenge-2026-11-26/validate_artifacts.py": {
+      "bytes": 15118,
+      "sha256": "f2449610ebf2f3be2ad002f2f8112f8f7d4afb2947add782b7d0c196687bdbcf"
+    },
+    "models/main-v4/D.joblib": {
+      "bytes": 285439,
+      "sha256": "080829e8981e1169ea53da238dbc6b2f725604ac2935b752844ad00c9d4a3c16"
+    },
+    "models/main-v4/E2.1.joblib": {
+      "bytes": 400761,
+      "sha256": "4b6e328050f07d2f83952f9793a4bdb10d80cd7e4d4fb50508bd916360c6bf10"
+    },
+    "requirements-analysis.txt": {
+      "bytes": 108,
+      "sha256": "a0f5086c0d772a55daa1ad3b5b53095306bf09fff3e37c00513c2f20a403b06b"
+    },
+    "requirements.txt": {
+      "bytes": 557,
+      "sha256": "148a5834722935e9a975a6c09259309f5b5ff9f363856027c523e4c7d42a6190"
+    },
+    "results/hard-challenge-2026-11-26/RESULTS.md": {
+      "bytes": 9113,
+      "sha256": "03702d7246014a4ad9df4fbf3d4744d3d747a644bc48ce01df766d9df17232e7"
+    },
+    "results/hard-challenge-2026-11-26/SUMMARY_RU.md": {
+      "bytes": 30934,
+      "sha256": "36f5f2b7c3a475c21a54f11086c22050ebeb544fc22c9d74d057e96d25ffa0a4"
+    },
+    "results/hard-challenge-2026-11-26/analysis_log.txt": {
+      "bytes": 8009,
+      "sha256": "301d8aca915fa82a6872f42db59b4af8c1c579b13ca4c6466df9c8b322faac72"
+    },
+    "results/hard-challenge-2026-11-26/attempts_universal.jsonl": {
+      "bytes": 4134109,
+      "sha256": "6cd6b25e7be32627a45affbaede761bc5b147830cf70ad0fcda82831c20afceb"
+    },
+    "results/hard-challenge-2026-11-26/budget.sqlite": {
+      "bytes": 8314880,
+      "sha256": "a60f7993f8a0feed645c3c0e4a463d1c09e781f0516665c372b529615841fdbb"
+    },
+    "results/hard-challenge-2026-11-26/budget_authorization.json": {
+      "bytes": 442,
+      "sha256": "aa7b3b9c1217732dbd361cdf2bb3bfc7d71bf150002fa9a00d32e71b5a69915f"
+    },
+    "results/hard-challenge-2026-11-26/budget_stop_explanation.json": {
+      "bytes": 621,
+      "sha256": "5a99d5c0fef9b1a211c704e6df5006a7e6ceea17a2bbd8b19dd7b410c54aa116"
+    },
+    "results/hard-challenge-2026-11-26/by_family.csv": {
+      "bytes": 105310,
+      "sha256": "1c576705a6b265a3f2dea6b6d14ff174bdde4bf312f828a0efe6ff1118bfe0b7"
+    },
+    "results/hard-challenge-2026-11-26/cases.jsonl": {
+      "bytes": 640452,
+      "sha256": "b154476f504210266adbf260375cdd59639c5bbf515cc5602aa7f02dd5a2e3c7"
+    },
+    "results/hard-challenge-2026-11-26/catalog.json": {
+      "bytes": 153624,
+      "sha256": "23be90b257a252ea763ad481b53201e7043693d62ab7455578866b566dfd991c"
+    },
+    "results/hard-challenge-2026-11-26/combined_financial_summary.json": {
+      "bytes": 1167,
+      "sha256": "bd4fe4cf9fa15cb6735024719f7e94e49aa847eef1650d7d61357fa654ff6cb6"
+    },
+    "results/hard-challenge-2026-11-26/export_discrepancies.json": {
+      "bytes": 54,
+      "sha256": "69bcdaf230607f26fabfa2220051507bdb33848c83650da57f83e01b2dfe9a17"
+    },
+    "results/hard-challenge-2026-11-26/figures/01_asr.png": {
+      "bytes": 117446,
+      "sha256": "e1b91dafab4fa8c12a03fa8efda0152b53ed595f22ecacc30aa12366ac0f6962"
+    },
+    "results/hard-challenge-2026-11-26/figures/01_asr.svg": {
+      "bytes": 64240,
+      "sha256": "1dc48055ff331bb655774765e88085dc3f9926478316753b988a91545eb81bcb"
+    },
+    "results/hard-challenge-2026-11-26/figures/02_clean_strict.png": {
+      "bytes": 108076,
+      "sha256": "24b942e138adb8a7b3fc7ae5b15cbdb2b822db8c943649f3f1860e3678694080"
+    },
+    "results/hard-challenge-2026-11-26/figures/02_clean_strict.svg": {
+      "bytes": 51666,
+      "sha256": "08857a6536009224f344124f61b90e06753bcb86f973e4817f14164db6a2cbb1"
+    },
+    "results/hard-challenge-2026-11-26/figures/03_filters.png": {
+      "bytes": 90277,
+      "sha256": "6301c823ae7cc72b1cbb3b53216068e0c33d7b5107a6f6f82fa95b528391c716"
+    },
+    "results/hard-challenge-2026-11-26/figures/03_filters.svg": {
+      "bytes": 42937,
+      "sha256": "d5c0a12b965841fde83b0d4b3b227e516dc68c9fd3942ad6674cd7fe80c1bb71"
+    },
+    "results/hard-challenge-2026-11-26/filter_metrics.csv": {
+      "bytes": 205,
+      "sha256": "5403eb6132ddfc9b1d7b1e9653a651a42032bc72417a9b88d510fef7589c4fc3"
+    },
+    "results/hard-challenge-2026-11-26/filter_predictions.csv": {
+      "bytes": 16254,
+      "sha256": "853a9bf1fba3a334fbf42fe4c013cf7943435c6e4b4357f8bc055931bb134588"
+    },
+    "results/hard-challenge-2026-11-26/final_financial_summary.json": {
+      "bytes": 3503,
+      "sha256": "13a5207bc5238511062413b3f39d2fde6a0c42ed53fe58fa8d1654c6d691c3fb"
+    },
+    "results/hard-challenge-2026-11-26/financial_summary.json": {
+      "bytes": 909,
+      "sha256": "bb4035b19f02e98f3733c8203e7b8e8bb2eaa81b09c7a4cb321731ece89f6443"
+    },
+    "results/hard-challenge-2026-11-26/lock.json": {
+      "bytes": 2296,
+      "sha256": "560773d090df14c17c628c86e4368974dd0131eb609b176fa94617f6186c6d61"
+    },
+    "results/hard-challenge-2026-11-26/observations.jsonl": {
+      "bytes": 4112073,
+      "sha256": "0bfdd951d582af72a7f7cc815e4bd4ab867975ecee5b352f04b754ed175db88a"
+    },
+    "results/hard-challenge-2026-11-26/outcomes.csv": {
+      "bytes": 606522,
+      "sha256": "a61ca97d08cba51dfa08655ac385878a08f8a741dbf9c80ccb23a1c9e3b7b2c4"
+    },
+    "results/hard-challenge-2026-11-26/paired_models.csv": {
+      "bytes": 513,
+      "sha256": "d0ec9bf2d23edafbebfb0c072d6845378e27ade5ddaa2a3f062cd24dc79b1df2"
+    },
+    "results/hard-challenge-2026-11-26/pilot_completion.json": {
+      "bytes": 1039,
+      "sha256": "7779f69f1768ab51647443cb6229d7ac2fa1bc0ea47b3393d56c3d8324ce0c5d"
+    },
+    "results/hard-challenge-2026-11-26/pilot_forecast.json": {
+      "bytes": 878,
+      "sha256": "5b30b3f1e37c98c53c99457d6955c1fadbd0ab06e6611b56226895875ec8a5c4"
+    },
+    "results/hard-challenge-2026-11-26/pilot_summary.json": {
+      "bytes": 277,
+      "sha256": "f8adb856a3bf0cd824339c01e8b85c8060738cb4aeb078629aadee7711689354"
+    },
+    "results/hard-challenge-2026-11-26/plan.jsonl": {
+      "bytes": 60032,
+      "sha256": "403d677bbf7b5df632e9ec5545cb13cfa6cd01bfaafd9f3e22faa7d738a9135e"
+    },
+    "results/hard-challenge-2026-11-26/prepilot_forecast.json": {
+      "bytes": 229,
+      "sha256": "fc14a87a248864568ccff2ee3e96c6f9006d8c027d11cbbe1d8fb62af2175749"
+    },
+    "results/hard-challenge-2026-11-26/preservation.json": {
+      "bytes": 57963,
+      "sha256": "1ed355dc4068ecba540db7dc6792199f60bcdce5e368f3e6561c01387d8dddd7"
+    },
+    "results/hard-challenge-2026-11-26/repeat_stability.csv": {
+      "bytes": 10471,
+      "sha256": "da0e92db77c2aae3041072951e29f18e2110edb1ea1a00bef9d2015483dc74a7"
+    },
+    "results/hard-challenge-2026-11-26/robustness/README.md": {
+      "bytes": 6203,
+      "sha256": "12a4b6e2dbc3b56b66fde203c6785c6cd9f12a0ed0cfe155789e63ebc5104b94"
+    },
+    "results/hard-challenge-2026-11-26/robustness/RESULTS.md": {
+      "bytes": 9048,
+      "sha256": "5753e4335caf09b5442645c292f230084129cfe79633f54aebbb6f9a2c7dc337"
+    },
+    "results/hard-challenge-2026-11-26/robustness/attempts_universal.jsonl": {
+      "bytes": 2839991,
+      "sha256": "6e32048bef351919103e60ef8f3e81e33cd4ea295ba71fbc4b60bff1bdcc1537"
+    },
+    "results/hard-challenge-2026-11-26/robustness/by_family.csv": {
+      "bytes": 101579,
+      "sha256": "4356385c5441a9045f30fbda265f032affc52f7ca4ab7697037e2647adc683a3"
+    },
+    "results/hard-challenge-2026-11-26/robustness/cases.jsonl": {
+      "bytes": 640452,
+      "sha256": "794dda02d5ccf65cbbcabad72e855eb3408e3c44c9502a76fb4c2fa1b4b74784"
+    },
+    "results/hard-challenge-2026-11-26/robustness/completion.json": {
+      "bytes": 3918,
+      "sha256": "df3891bb09ff15090cdc0125bafb8ddc9998dcaec5e729db9181243d683682fe"
+    },
+    "results/hard-challenge-2026-11-26/robustness/filter_metrics.csv": {
+      "bytes": 205,
+      "sha256": "5403eb6132ddfc9b1d7b1e9653a651a42032bc72417a9b88d510fef7589c4fc3"
+    },
+    "results/hard-challenge-2026-11-26/robustness/filter_predictions.csv": {
+      "bytes": 16254,
+      "sha256": "853a9bf1fba3a334fbf42fe4c013cf7943435c6e4b4357f8bc055931bb134588"
+    },
+    "results/hard-challenge-2026-11-26/robustness/lock.json": {
+      "bytes": 1603,
+      "sha256": "4072a927b82c2bee94824ea554af78a22d269b2ed5844987351c9b8866a6abb7"
+    },
+    "results/hard-challenge-2026-11-26/robustness/observations.jsonl": {
+      "bytes": 6936478,
+      "sha256": "65864d91f3a505ae7b6ed12b5682a7670769dd8edae1d5476d7624ef57e8f2c3"
+    },
+    "results/hard-challenge-2026-11-26/robustness/outcomes.csv": {
+      "bytes": 1114708,
+      "sha256": "8f217250b308806fe6cf450e6cb7f28c223dd52e8605619bff492c417292b38c"
+    },
+    "results/hard-challenge-2026-11-26/robustness/paired_models.csv": {
+      "bytes": 513,
+      "sha256": "d0ec9bf2d23edafbebfb0c072d6845378e27ade5ddaa2a3f062cd24dc79b1df2"
+    },
+    "results/hard-challenge-2026-11-26/robustness/plan.jsonl": {
+      "bytes": 60288,
+      "sha256": "89ed9c5e29bbdabf6a032243d356aea309e9d472eda56c691162a50afc92c3cd"
+    },
+    "results/hard-challenge-2026-11-26/robustness/repeat_stability.csv": {
+      "bytes": 39691,
+      "sha256": "14b377543094af03a2850d2ca047f85cb8235358cc708006fd3e3b4cce78c5b4"
+    },
+    "results/hard-challenge-2026-11-26/robustness/summary.csv": {
+      "bytes": 7321,
+      "sha256": "c22015586f58f5f074136c2d91b29353c9e83c32711cf88f4dab05190613e109"
+    },
+    "results/hard-challenge-2026-11-26/run_completion.json": {
+      "bytes": 1063,
+      "sha256": "beaddd12c2515f87b4b1f7ab74be0bc443b2a5ebb3b8634efb65a0b6ea5554fb"
+    },
+    "results/hard-challenge-2026-11-26/summary.csv": {
+      "bytes": 8307,
+      "sha256": "76ea7f8ac8aaef9c479f8e019c1b2a8e6c0fc5e6f0cdf6f1ce5fd7564f044bbd"
+    },
+    "results/hard-challenge-2026-11-26/supplement/RESULTS.md": {
+      "bytes": 7349,
+      "sha256": "a017c7ef217db96dba9ecedf82be4c6808abce6f9b27d5900fd6cad19ab8d409"
+    },
+    "results/hard-challenge-2026-11-26/supplement/attempts_universal.jsonl": {
+      "bytes": 302689,
+      "sha256": "72c878a1ba80f68e13837d4d5516419aaab8739ab3cdfc94b5b98fb77ff5f569"
+    },
+    "results/hard-challenge-2026-11-26/supplement/by_family.csv": {
+      "bytes": 9168,
+      "sha256": "551461940c7ee5ee4453670c66646aec4573ed2cb700dee691d8ffb0409ba4e3"
+    },
+    "results/hard-challenge-2026-11-26/supplement/cases.jsonl": {
+      "bytes": 74034,
+      "sha256": "8b04a927858ab6d00d594e99f2ba629295b7d2f196119bdcd56ab6124f1a95c0"
+    },
+    "results/hard-challenge-2026-11-26/supplement/completion.json": {
+      "bytes": 1295,
+      "sha256": "6a8992e1da9c8788b60c70a070124460e49100cb1b0917f4302400ae66d273f7"
+    },
+    "results/hard-challenge-2026-11-26/supplement/figures/01_asr.png": {
+      "bytes": 111665,
+      "sha256": "359c2b77b7a771cf4e308b24159a9e4146e3ff86925fc3eb1bb6244834754a52"
+    },
+    "results/hard-challenge-2026-11-26/supplement/figures/01_asr.svg": {
+      "bytes": 62824,
+      "sha256": "652df6d93758733a52964e58761cdd2c6a6dbec498c8b0c4dec414ab728489b8"
+    },
+    "results/hard-challenge-2026-11-26/supplement/figures/02_clean_strict.png": {
+      "bytes": 101139,
+      "sha256": "795e27bbe04e797ea23285416d1bd70f861fe838993568b204470c225be80b99"
+    },
+    "results/hard-challenge-2026-11-26/supplement/figures/02_clean_strict.svg": {
+      "bytes": 49923,
+      "sha256": "a34a4e78f4159c70b759fce09a5f06b67b92387381d9187b90aaaed0c577cd6c"
+    },
+    "results/hard-challenge-2026-11-26/supplement/figures/03_filters.png": {
+      "bytes": 84914,
+      "sha256": "3a97e45e71a0ac38cd01fb8e788a99d725fc8d98627e10ee2f7d5abc40d5afbb"
+    },
+    "results/hard-challenge-2026-11-26/supplement/figures/03_filters.svg": {
+      "bytes": 41174,
+      "sha256": "9b0b41ac9319ff39d7658dc22f1617476699ca5aa28c77cadd950813f9d541e1"
+    },
+    "results/hard-challenge-2026-11-26/supplement/filter_metrics.csv": {
+      "bytes": 167,
+      "sha256": "57db80f5eca0043acdae7e0e554b67b8d19b86460ce2dab9bde1d7e321f19aba"
+    },
+    "results/hard-challenge-2026-11-26/supplement/filter_predictions.csv": {
+      "bytes": 2090,
+      "sha256": "6920afd12da8246a7c616a6345ee9b9d08083ef6b70e1adf6b36f720b9bedee9"
+    },
+    "results/hard-challenge-2026-11-26/supplement/lock.json": {
+      "bytes": 1179,
+      "sha256": "dfa35f555512881a243e360ed5ef891495447cd6f676f4f872c75d73f8426d41"
+    },
+    "results/hard-challenge-2026-11-26/supplement/observations.jsonl": {
+      "bytes": 300897,
+      "sha256": "83f8658a251d730c9a04e394010724575a12c936a35d208dcbd362ab25d5fcfc"
+    },
+    "results/hard-challenge-2026-11-26/supplement/outcomes.csv": {
+      "bytes": 49196,
+      "sha256": "ce7c27b2267171010750548c8dc3115caf3632c5e59a8f9d7290d14a884142cf"
+    },
+    "results/hard-challenge-2026-11-26/supplement/paired_models.csv": {
+      "bytes": 443,
+      "sha256": "ec66e046ee229de200a95f0b6a143b23b07b74404ab4148cf86f632d7ececa84"
+    },
+    "results/hard-challenge-2026-11-26/supplement/plan.jsonl": {
+      "bytes": 5056,
+      "sha256": "1cced25ccf3190b092c0f8c310ee2892bfaaa78e3d55d4deefde662a0ab90746"
+    },
+    "results/hard-challenge-2026-11-26/supplement/repeat_stability.csv": {
+      "bytes": 144,
+      "sha256": "4dca94c45f166f93c124cfda7188db60fab24fd026563030713a4c314b666c06"
+    },
+    "results/hard-challenge-2026-11-26/supplement/summary.csv": {
+      "bytes": 2503,
+      "sha256": "ae61c68c2018f677f95638dafa430fdc31cce62d1691300a9736195243dcd531"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/01_families.png": {
+      "bytes": 383028,
+      "sha256": "b19648633cc028b47c2f12be7e7d27d926e1e0bc379358f49612510b2dbe6f28"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/01_families.svg": {
+      "bytes": 205288,
+      "sha256": "f6ad98c18998d92c369c7a6a12c021c2dbdbef38dc3a52cbe5f7c70366ad6ef3"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/02_repeat_coverage.png": {
+      "bytes": 135046,
+      "sha256": "3600e6a77880d7a5ff0b24c0bea0ce3419ff01d726a1de1671db861178238cc6"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/02_repeat_coverage.svg": {
+      "bytes": 76099,
+      "sha256": "7a704c2c0c3cfa4476eddb55c5ba657fb11029760c00ec15aa02f047beb612b0"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/by_family.csv": {
+      "bytes": 14577,
+      "sha256": "1ffc10625eca21a94bfa7aa3129d058f2250cda7d5ccefe11ab22d4e7e007244"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/by_length.csv": {
+      "bytes": 2139,
+      "sha256": "7071afa3d4abf4db4ed85253aa1db567f732512a00efcf9f8e3b025d45ce93e7"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/by_task.csv": {
+      "bytes": 5286,
+      "sha256": "3e20a80c4e2c3ed081c28c0b9b97d6d23abe223d459932a8ebd288308934ada6"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-00-0-attack-ffbc2b97.txt": {
+      "bytes": 7161,
+      "sha256": "0ad970eaa81e14a8da0b1d625ea050f4cb82387a3e556a665deb6e5a03347626"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-00-2-attack-44d841e5.txt": {
+      "bytes": 2863,
+      "sha256": "34caf522ebb3c1dd00583b774e714e9dbfc92b16544e6b32079b7bee06874b85"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-03-0-attack-04bd4939.txt": {
+      "bytes": 2755,
+      "sha256": "e154a790e24293ff48038f499adaa8dc104b8dcceb557056a1a61ce4824c992e"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-03-1-attack-601dcb90.txt": {
+      "bytes": 2573,
+      "sha256": "d8a4f99dd236da21cfac11ae85c6c678ec440d915841c7111a814de8a54934aa"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-03-2-attack-0fe69c11.txt": {
+      "bytes": 2407,
+      "sha256": "d9a9c5933e7bc61ca8c5388057d1ca782cb7ecbd0a6dd7933b9ed01031977634"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-05-2-attack-d8a546a1.txt": {
+      "bytes": 2510,
+      "sha256": "7a114cfacd3ee1851800ee95e6e6bf3235b7a93bb3906a0319e1de90b98f4168"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-06-0-attack-9eb9a010.txt": {
+      "bytes": 2887,
+      "sha256": "325649fb274aceec7d83c283b4a13cb223bd3813bd0becc67eff54d5260e1f95"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-06-1-attack-1a716c1d.txt": {
+      "bytes": 2700,
+      "sha256": "12a82fc117a8d2de178fbaaf3023ba91d2226d363bd27450489f8650626e5183"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-06-2-attack-3e77653f.txt": {
+      "bytes": 6935,
+      "sha256": "cd2722cc5cd4dc97ec21cb6b0bb7a4d32b8b6e5945481b16bb7617d0c6fa1d65"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-06-3-attack-48b17015.txt": {
+      "bytes": 2791,
+      "sha256": "bad4d1569369cdf45fa877b6770219a5ad4a51b2f5cc2f4cee0e60ef6c6e405f"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-07-1-attack-34d408e5.txt": {
+      "bytes": 2528,
+      "sha256": "aef1618d0dd47ade62c5ff37cabaadb52791dcd2d09a3273a4c79f3a82b39547"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-07-2-attack-7aca27e9.txt": {
+      "bytes": 2508,
+      "sha256": "a594121be0810e0467e96096c81657bb4f308fd90bd0851e6531b12df40520e0"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-08-0-attack-fd5c40dc.txt": {
+      "bytes": 6960,
+      "sha256": "226e9bec965659af3e189370bc7e1deccd01a338120e3a962e09da443f6944f8"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-08-1-attack-30c1db19.txt": {
+      "bytes": 2491,
+      "sha256": "dadbba23cc92ff0cbaf61215b17973239c28433b2ee73f3064fc4c9249a40272"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-08-2-attack-8dc81090.txt": {
+      "bytes": 2654,
+      "sha256": "ccdec7b0d39f4306075549eb00de2046ebe577730f51b2422ef22ebc9eb13a8e"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-09-0-attack-7f01e490.txt": {
+      "bytes": 2694,
+      "sha256": "6d635fb311029c56841d4544944891db2813787ca24bbf0148029d7bedeeda86"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-09-1-attack-4ce6bab6.txt": {
+      "bytes": 6971,
+      "sha256": "4e7283d8f03bfa62f3e7a5616aa637fbb7b978dfc3a407caa04a245cc0629cd1"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-09-2-attack-21d0a2c1.txt": {
+      "bytes": 2589,
+      "sha256": "e9441d3fc8b5728622f7e5b20cbc12307f7af4d6f0b4412ec04f94a953965dfd"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-09-3-attack-b5d42a30.txt": {
+      "bytes": 2575,
+      "sha256": "3ca8306f38ef57e032f0154102809b9f0c1d455fbbc62e7ba4c17a6b734b5860"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-11-1-attack-b89cf707.txt": {
+      "bytes": 2568,
+      "sha256": "a31dba5b6fcbf26f22edbcbc60e4f9055b70360c50addabab5e1d1d7d73bb3bc"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-11-3-attack-e380d561.txt": {
+      "bytes": 6969,
+      "sha256": "ad136f5d83e2fc298c9e205183398f484ead00f7f120ce56cb89bed1c5b213ed"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-12-0-attack-de7a3dc5.txt": {
+      "bytes": 6930,
+      "sha256": "639e6466e1da304e4aef618b619e7f1918a4b25fb5b0eb8508cebae09d512ff2"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-12-1-attack-de902ea9.txt": {
+      "bytes": 2584,
+      "sha256": "f02f3e8f09be7c802d8276f618f3dd2c50e3166827370aec965a7f42fc1677d4"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-12-2-attack-d2f779d7.txt": {
+      "bytes": 2800,
+      "sha256": "97c563c10b12d0d15b5ae6acdf9cc2cdd0430c5610eb0ff8692739a0ea4b4416"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-12-3-attack-b0e32d87.txt": {
+      "bytes": 2628,
+      "sha256": "a83ac9dc97f0a4c99554841c6ceda6a85d2c4f6073223918224cf1e444b43d40"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-14-0-attack-257ae899.txt": {
+      "bytes": 2789,
+      "sha256": "46b957714def66711349cf00c1e0c653179d8e48345e31a09437a702f236c06f"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/documents/main/hc26-15-2-attack-763e819b.txt": {
+      "bytes": 2770,
+      "sha256": "9beca2ce203776cc0ccd42480a5da8bffd2d1ba860c4dad651bc816e865f7113"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/first_response_metrics.csv": {
+      "bytes": 2520,
+      "sha256": "f7345efa4800e5f2e1c8fe4430674570efe620d7f4a1cb823d31022690415867"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/marker_mentions.csv": {
+      "bytes": 252887,
+      "sha256": "e39cd129e1f0ed179def3939a679b964224657298045915e0b0c9a5662f47f7b"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/repeat_coverage.csv": {
+      "bytes": 969,
+      "sha256": "dd8e81e374b1f117007b24465e0fe0542370ae4cc7c991be87d9bf26b9629975"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/success_examples.jsonl": {
+      "bytes": 66790,
+      "sha256": "b43ae29e99031269d7d53ff7d7fc105d01694518c57d6e3a9ce63391f39216ee"
+    },
+    "results/hard-challenge-2026-11-26/synthesis/technical_outcomes.csv": {
+      "bytes": 351632,
+      "sha256": "a44bd3cc8bc268fd7da48b3f95b48e988ab5fa723b898f787b6bdff81912bde2"
+    },
+    "results/hard-challenge-2026-11-26/test_results.txt": {
+      "bytes": 101,
+      "sha256": "ec7f35a1a4b6518f988159165b56045d10d61b910d93651b198b605ab968e6fd"
+    },
+    "results/hard-challenge-2026-11-26/unmapped_attempts.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/hard-challenge-2026-11-26/verification.json": {
+      "bytes": 3373,
+      "sha256": "2c9b8ceb04c7f609a68f9dabaf3ba49be84a0c255e29c4984af34762373f7f92"
+    },
+    "src/client.py": {
+      "bytes": 10081,
+      "sha256": "95f3a81a67f870e2468c679f8aa36c0103cdcc970eb61f3c65da16f992d9ae4f"
+    },
+    "src/experiment_core.py": {
+      "bytes": 2085,
+      "sha256": "4f6fc825c27d66bcea652b4aea8143c78bf69991e96e15e347c3b30c41712c14"
+    },
+    "src/research_data.py": {
+      "bytes": 13029,
+      "sha256": "7c3fe1b8b37ffd56ff736170519ce63949ce7cfa38004c4cc8de379cf7836a6c"
+    },
+    "src/research_defense.py": {
+      "bytes": 10426,
+      "sha256": "1a39f334f2a416c535e029bcca1c509d6a0b1a684cd96289bff6d50d6c7c96c4"
+    }
+  }
+}

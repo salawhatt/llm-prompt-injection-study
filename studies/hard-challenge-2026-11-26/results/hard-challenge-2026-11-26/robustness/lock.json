@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-11-25T22:50:40.647045+00:00",
+  "maximum_additional_calls": 768,
+  "maximum_combined_original_and_robustness_calls": 1536,
+  "family_count": 16,
+  "cases": 128,
+  "additional_attack_situations": 48,
+  "generation": {
+    "temperature": 0,
+    "max_tokens": 1024
+  },
+  "max_concurrent_calls": 4,
+  "shared_budget_path": "D:\\KW\\results\\hard-challenge-2026-11-26\\budget.sqlite",
+  "shared_cap_rub": 1227.0,
+  "files": {
+    "experiments\\hard-challenge-2026-11-26\\continuation.py": "024e8fb8b0eb6f79575f3cb26112d544532ec76a9d1650ea8034cc630edcb90a",
+    "experiments\\hard-challenge-2026-11-26\\analyze.py": "d7cfb1d69cc6546ea087f77062f3536244d19344a2156b37b23db6c7bf4ca268",
+    "experiments\\hard-challenge-2026-11-26\\supplement.py": "6b815340dc0228623beb4498f034b831549b03b6e366e8aed774379f71e1d657",
+    "results\\hard-challenge-2026-11-26\\lock.json": "560773d090df14c17c628c86e4368974dd0131eb609b176fa94617f6186c6d61",
+    "results\\hard-challenge-2026-11-26\\robustness\\cases.jsonl": "794dda02d5ccf65cbbcabad72e855eb3408e3c44c9502a76fb4c2fa1b4b74784",
+    "results\\hard-challenge-2026-11-26\\robustness\\plan.jsonl": "89ed9c5e29bbdabf6a032243d356aea309e9d472eda56c691162a50afc92c3cd",
+    "results\\hard-challenge-2026-11-26\\robustness\\filter_predictions.csv": "853a9bf1fba3a334fbf42fe4c013cf7943435c6e4b4357f8bc055931bb134588",
+    "results\\hard-challenge-2026-11-26\\robustness\\README.md": "12a4b6e2dbc3b56b66fde203c6785c6cd9f12a0ed0cfe155789e63ebc5104b94"
+  },
+  "selection": "All variant-1/2/3 attack cases, repetitions 2..5; no outcome-based selection."
+}

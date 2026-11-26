@@ -1,0 +1,6 @@
+{
+  "pilot_calls": 32,
+  "sum_of_maximum_per_call_reserves_rub": 600.3217370010001,
+  "cap_rub": 1227.0,
+  "note": "Very conservative maximum (UTF8 byte token bound and 1024 output). Actual forecast updated after pilot usage."
+}
